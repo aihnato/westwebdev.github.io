@@ -326,7 +326,13 @@ button:focus {
     column-count: 2;
     -moz-column-count: 2;
     -webkit-column-count: 2;
-    column-gap: 5em; }
+    column-gap: 5em;
+    transition: 0.8s ease;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+    -o-transition: 0.8s ease; }
     #make .make-list .make-item {
       list-style-type: none;
       font-size: 29px;

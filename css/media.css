@@ -41,6 +41,31 @@
   #skills .skills-bar {
     width: 33%; } }
 
+@media all and (max-width: 900px) {
+  .popup-more {
+    width: 90%;
+    min-height: 450px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: auto; }
+    .popup-more .popup-img,
+    .popup-more .popup-text {
+      width: 90%;
+      margin: 5% auto 0;
+      top: 0;
+      transform: none; }
+    .popup-more .open {
+      height: 30px; } }
+
+@media all and (max-width: 896px) {
+  #call .contact .cont-list {
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
+
 @media all and (max-width: 795px) {
   #up {
     transform: scale(0.8); }
@@ -53,10 +78,13 @@
     width: 80%; }
     #make .make-list .make-item {
       margin-left: 0; }
-  #call .contact .cont-list .cont-link {
-    width: 50%; } }
+  #call .contact .cont-list {
+    width: 95%;
+    padding-left: 30%; }
+    #call .contact .cont-list .cont-link {
+      width: 60%; } }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 670px) {
   #first:before {
     box-shadow: inset 0px 0px 350px 50px #000; }
   #works:before {
@@ -89,14 +117,17 @@
     padding-top: 0; }
     .popup-about .about-name {
       display: block;
-      text-align: center; } }
+      text-align: center; }
+  #call .contact .cont-list {
+    width: 100%; } }
 
 @media all and (max-width: 620px) {
   .popup-about .about-name {
     font-size: 30px; }
   #call .contact .cont-list {
     width: 90%;
-    text-align: center; }
+    text-align: center;
+    padding-left: 0; }
     #call .contact .cont-list .cont-link {
       width: 100%; }
   #call .row .well .form .row .form-group {
