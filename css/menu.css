@@ -38,6 +38,18 @@
   -o-transition: 1s ease;
   animation: menu-rotate 5s infinite; }
 
+.ninja-button {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .ninja-button .line {
+    height: 2px;
+    width: 20px;
+    margin: 5px auto;
+    background: #fff; }
+
 .menu-button {
   background: none;
   position: fixed;
@@ -137,7 +149,8 @@
   -webkit-transition: 1s ease;
   -moz-transition: 1s ease;
   -ms-transition: 1s ease;
-  -o-transition: 1s ease; }
+  -o-transition: 1s ease;
+  cursor: pointer; }
 
 .close:hover {
   opacity: 1;

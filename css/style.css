@@ -23,6 +23,48 @@
   font-family: 'FuturaPTD';
   src: url("../fonts/FuturaPTDemi.ttf"); }
 
+.ua,
+.ru {
+  display: none; }
+
+.lang-panel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 50; }
+  .lang-panel .language:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2cac8f;
+    opacity: 0.5;
+    border-radius: 40px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; }
+  .lang-panel .language {
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px; }
+    .lang-panel .language span {
+      opacity: 1;
+      position: relative;
+      z-index: 16; }
+  .lang-panel .language:hover:before {
+    opacity: 1; }
+
 .none {
   display: none; }
 
@@ -319,7 +361,7 @@ button:focus {
   #make .site-h {
     color: #000; }
   #make .make-list {
-    width: 70%;
+    width: 76%;
     margin: auto;
     padding-bottom: 2.5%;
     padding-left: 10%;
@@ -335,7 +377,7 @@ button:focus {
     -o-transition: 0.8s ease; }
     #make .make-list .make-item {
       list-style-type: none;
-      font-size: 29px;
+      font-size: 26px;
       margin-bottom: 10px; }
 
 #skills:before {
@@ -570,7 +612,7 @@ footer {
   position: fixed;
   bottom: 9%;
   right: 2.5%;
-  z-index: 10;
+  z-index: 20;
   color: #fff;
   font-size: 25px;
   width: 45px;
