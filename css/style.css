@@ -67,7 +67,7 @@
       z-index: 16;
       font-size: 16px;
       position: absolute;
-      top: 47%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
   .lang-panel .language:hover:before {
