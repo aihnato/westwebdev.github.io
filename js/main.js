@@ -1,5 +1,6 @@
+	//START
 	$(function() {	
-		$('#nav-menu').fadeOut().hide();
+		$('#nav-menu, .ua, .ru').fadeOut().hide();
 });
 
 // menu
@@ -25,7 +26,6 @@ $(function() {
 	});
 	
 });
-
 
 // navpanel
 $(window).ready(function(){

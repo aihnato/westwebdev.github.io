@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @font-face {
-  font-family: 'PTSans';
-  src: url("/fonts/PTSansRegular/PTSansRegular.ttf"); }
-
-@font-face {
   font-family: 'FuturaPT';
-  src: url("../fonts/FuturaPTMedium.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTMedium.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTL';
-  src: url("../fonts/FuturaPTLight.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTLight.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTB';
-  src: url("../fonts/FuturaPTBook.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTBook.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTH';
-  src: url("../fonts/FuturaPTHeavy.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTHeavy.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTD';
-  src: url("../fonts/FuturaPTDemi.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTDemi.ttf"); }
+
+@font-face {
+  font-family: 'MaryadPro';
+  src: url("/fonts/MyriadPro/MyriadPro-Regular.otf"); }
 
 .ua,
 .ru {
@@ -31,7 +31,8 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 50; }
+  z-index: 50;
+  font-family: MaryadPro; }
   .lang-panel .language:before {
     content: '';
     position: absolute;
@@ -57,11 +58,18 @@
     line-height: 30px;
     color: #fff;
     cursor: pointer;
-    margin-left: 10px; }
+    margin-left: 10px;
+    background: none;
+    border: none; }
     .lang-panel .language span {
       opacity: 1;
       position: relative;
-      z-index: 16; }
+      z-index: 16;
+      font-size: 16px;
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
   .lang-panel .language:hover:before {
     opacity: 1; }
 
@@ -87,6 +95,7 @@ body {
   width: 100%;
   height: 100%;
   background: url("/img/bg.png") no-repeat 50% 50%;
+  font-family: FuturaPTL;
   background-size: cover;
   background-attachment: fixed;
   line-height: inherit !important;
@@ -249,12 +258,14 @@ button:focus {
 .site-h {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 40px;
   text-align: center;
   color: #fff;
   position: relative;
   z-index: 5;
-  padding: 2.5% 0; }
+  padding: 2.5% 0;
+  font-family: MaryadPro;
+  letter-spacing: 2px; }
 
 #works:before {
   content: '';
@@ -312,7 +323,8 @@ button:focus {
           left: 50%;
           transform: translate(-50%, -50%);
           color: #fff;
-          opacity: 1; }
+          opacity: 1;
+          letter-spacing: 1px; }
       #works .carousel .carousel-cell .more:before {
         content: '';
         position: absolute;
@@ -377,8 +389,10 @@ button:focus {
     -o-transition: 0.8s ease; }
     #make .make-list .make-item {
       list-style-type: none;
-      font-size: 26px;
-      margin-bottom: 10px; }
+      font-size: 28px;
+      margin-bottom: 10px;
+      font-family: FuturaPT;
+      letter-spacing: 1px; }
 
 #skills:before {
   content: '';
@@ -397,12 +411,14 @@ button:focus {
   background-size: cover; }
   #skills .skill-text {
     color: #2cac8f;
-    font-size: 22px;
+    font-size: 30px;
     position: relative;
     width: 70%;
     margin: auto;
     text-align: center;
-    padding: 30px 0 10px; }
+    padding: 30px 0 10px;
+    letter-spacing: 1px;
+    font-weight: bold; }
   #skills .skills {
     width: 70%;
     margin: auto;
@@ -421,7 +437,8 @@ button:focus {
     margin-bottom: 10px;
     text-transform: capitalize;
     color: #fff;
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 22px;
     position: relative;
     z-index: 5; }
     #skills .skill-capt span {
@@ -435,6 +452,8 @@ button:focus {
   #skills .about {
     background: #e7304e;
     margin: 3% 0 2.5%; }
+  #skills .popup-about {
+    font-family: MaryadPro; }
 
 #call:before {
   content: '';
@@ -487,7 +506,8 @@ button:focus {
       #call .contact .cont-list .cont-link {
         height: 30px;
         margin: 0 10px;
-        font-size: 18px; }
+        font-size: 22px;
+        font-family: FuturaPT; }
         #call .contact .cont-list .cont-link a {
           color: #000;
           text-decoration: none;
@@ -557,6 +577,11 @@ button:focus {
   margin: auto;
   float: none; }
 
+.show-button {
+  font-size: 18px;
+  font-family: FuturaPT;
+  letter-spacing: 1px; }
+
 footer:before {
   content: '';
   position: absolute;
@@ -586,10 +611,10 @@ footer {
     left: 50%;
     transform: translate(-50%, 0%);
     color: #fff;
-    font-size: 12px; }
+    font-size: 16px; }
     footer div span {
       margin-left: 10px;
-      font-size: 10px; }
+      font-size: 14px; }
   footer .social a {
     color: #fff;
     margin-left: 20px;

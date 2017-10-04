@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @font-face {
-  font-family: 'PTSans';
-  src: url("/fonts/PTSansRegular/PTSansRegular.ttf"); }
-
-@font-face {
   font-family: 'FuturaPT';
-  src: url("../fonts/FuturaPTMedium.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTMedium.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTL';
-  src: url("../fonts/FuturaPTLight.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTLight.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTB';
-  src: url("../fonts/FuturaPTBook.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTBook.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTH';
-  src: url("../fonts/FuturaPTHeavy.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTHeavy.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTD';
-  src: url("../fonts/FuturaPTDemi.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTDemi.ttf"); }
+
+@font-face {
+  font-family: 'MaryadPro';
+  src: url("/fonts/MyriadPro/MyriadPro-Regular.otf"); }
 
 .popup:before {
   content: '';
@@ -160,7 +160,8 @@
     .popup-about div span {
       color: #000;
       font-weight: normal;
-      font-size: 16px; }
+      font-size: 18px;
+      letter-spacing: 1px; }
   .popup-about ul {
     float: left;
     list-style-position: outside; }

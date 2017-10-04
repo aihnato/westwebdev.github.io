@@ -1,31 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @font-face {
-  font-family: 'PTSans';
-  src: url("/fonts/PTSansRegular/PTSansRegular.ttf"); }
-
-@font-face {
   font-family: 'FuturaPT';
-  src: url("../fonts/FuturaPTMedium.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTMedium.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTL';
-  src: url("../fonts/FuturaPTLight.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTLight.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTB';
-  src: url("../fonts/FuturaPTBook.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTBook.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTH';
-  src: url("../fonts/FuturaPTHeavy.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTHeavy.ttf"); }
 
 @font-face {
   font-family: 'FuturaPTD';
-  src: url("../fonts/FuturaPTDemi.ttf"); }
+  src: url("/fonts/FuturaPT/FuturaPTDemi.ttf"); }
+
+@font-face {
+  font-family: 'MaryadPro';
+  src: url("/fonts/MyriadPro/MyriadPro-Regular.otf"); }
+
+@media all and (min-width: 1400px) {
+  #make .make-list .make-item {
+    font-size: 36px; }
+  #call .contact .cont-list .cont-link {
+    font-size: 26px; }
+  footer div {
+    font-size: 18px; }
+    footer div span {
+      font-size: 18px; } }
 
 @media all and (max-width: 1200px) {
   #make .make-list {
-    padding-left: 6%; } }
+    padding-left: 6%; }
+  #skills .skill-text {
+    font-size: 26px; } }
 
 @media all and (max-width: 1060px) {
   #works .carousel {
@@ -34,7 +46,7 @@
       height: 30px;
       font-size: 14px; }
   #make .make-list {
-    width: 71%;
+    width: 74%;
     column-gap: 0em; }
     #make .make-list .make-item {
       font-size: 22px; }
@@ -64,7 +76,9 @@
 @media all and (max-width: 896px) {
   #call .contact .cont-list {
     -ms-flex-pack: justify;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  #skills .skill-text {
+    font-size: 22px; } }
 
 @media all and (max-width: 795px) {
   #up {
@@ -82,7 +96,7 @@
     width: 95%;
     padding-left: 30%; }
     #call .contact .cont-list .cont-link {
-      width: 60%; }
+      width: 65%; }
   .carousel--show-several .carousel-cell {
     width: 45%; } }
 
@@ -116,8 +130,12 @@
     .popup-about .about-name {
       display: block;
       text-align: center; }
+    .popup-about div span {
+      font-size: 16px; }
   #call .contact .cont-list {
-    width: 100%; } }
+    width: 100%; }
+    #call .contact .cont-list .cont-link {
+      font-size: 20px; } }
 
 @media all and (max-width: 620px) {
   .popup-about .about-name {
@@ -130,7 +148,11 @@
       width: 100%; }
   #call .row .well .form .row .form-group {
     width: 100%;
-    padding: 0; } }
+    padding: 0; }
+  footer div {
+    font-size: 12px; }
+    footer div span {
+      font-size: 10px; } }
 
 @media all and (max-width: 426px) {
   .menu-button:before {
@@ -171,6 +193,9 @@
     .popup-about .about-name {
       font-size: 30px; }
     .popup-about ul {
-      padding-left: 10px; } }
+      padding-left: 10px; }
+  #call .contact .cont-list .cont-link {
+    font-family: FuturaPTL;
+    font-size: 20px; } }
 
 /*# sourceMappingURL=media.css.map */
