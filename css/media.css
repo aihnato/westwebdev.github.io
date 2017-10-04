@@ -37,14 +37,16 @@
   #make .make-list {
     padding-left: 6%; }
   #skills .skill-text {
-    font-size: 26px; } }
+    font-size: 26px; }
+  #first .motto {
+    font-size: 36px; } }
 
 @media all and (max-width: 1060px) {
   #works .carousel {
     height: 240px !important; }
     #works .carousel .carousel-cell .more {
       height: 30px;
-      font-size: 14px; }
+      font-size: 18px; }
   #make .make-list {
     width: 74%;
     column-gap: 0em; }
@@ -138,6 +140,8 @@
       font-size: 20px; } }
 
 @media all and (max-width: 620px) {
+  #first .motto {
+    font-size: 30px; }
   .popup-about .about-name {
     font-size: 30px; }
   #call .contact .cont-list {
@@ -179,7 +183,7 @@
   .carousel--show-several .carousel-cell {
     width: 70%; }
   #works .carousel .carousel-cell .more {
-    font-size: 12px; }
+    font-size: 14px; }
   #skills .skills-bar .small {
     font-size: 60px; }
   #skills .skill-text {

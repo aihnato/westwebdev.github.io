@@ -228,11 +228,25 @@ button:focus {
   color: #fff;
   display: table; }
   #first .logo,
-  #first .arr-down {
+  #first .arr-down,
+  #first .logo img {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  #first .motto {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-family: MaryadPro;
+    text-transform: capitalize;
+    font-size: 40px;
+    letter-spacing: 2px; }
+    #first .motto span {
+      color: #2cac8f; }
   #first .arr-down {
     top: 85%; }
     #first .arr-down i {
@@ -316,7 +330,7 @@ button:focus {
         position: absolute;
         bottom: 10px;
         right: 10px;
-        font-size: 18px; }
+        font-size: 20px; }
         #works .carousel .carousel-cell .more div {
           position: absolute;
           top: 50%;

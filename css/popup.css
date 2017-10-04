@@ -64,9 +64,6 @@
     -moz-transition: 0.4s ease;
     -ms-transition: 0.4s ease;
     -o-transition: 0.4s ease; }
-  .popup .popup-h {
-    margin-bottom: 15px;
-    font-size: 20px; }
   .popup .popup-text {
     width: 40%;
     height: 70%;
@@ -77,7 +74,14 @@
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
     -ms-transition: 0.4s ease;
-    -o-transition: 0.4s ease; }
+    -o-transition: 0.4s ease;
+    font-size: 22px;
+    font-family: FuturaPTL;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .popup .popup-h {
+    margin-bottom: 15px;
+    font-size: 30px; }
   .popup .open {
     text-decoration: none;
     width: 15%;
@@ -96,7 +100,8 @@
     border: 1px solid #fff;
     border-radius: 5px; }
     .popup .open div {
-      position: relative; }
+      position: relative;
+      font-size: 24px; }
   .popup .open:hover {
     background: #2cac8f; }
 

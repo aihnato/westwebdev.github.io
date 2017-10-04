@@ -112,7 +112,7 @@
   justify-content: space-between;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Lato; }
+  font-family: MaryadPro; }
   .nav-menu .nav-a {
     width: 20%;
     height: 100%;
@@ -125,7 +125,8 @@
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    font-size: 18px; }
     .nav-menu .nav-a div {
       width: 100%;
       text-align: center;
