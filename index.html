@@ -453,22 +453,30 @@
 					<form role="form" id="contactForm" data-toggle="validator" class="form shake">
 						<div class="row">
 							<div class="form-group col-xs-6">
-								<label for="name" class="h4 formlabel">Name</label>
+								<label for="name" class="h4 formlabel en">Name</label>
+								<label for="name" class="h4 formlabel ru">Ваше Имя</label>
+								<label for="name" class="h4 formlabel ua">Ваше імя</label>
 								<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error=" ">
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group col-xs-6">
-								<label for="email" class="h4 formlabel">Email</label>
+								<label for="email" class="h4 formlabel en">Email</label>
+								<label for="email" class="h4 formlabel ru">Ваша Е-почта</label>
+								<label for="email" class="h4 formlabel ua">Ваша Е-пошта</label>
 								<input type="email" class="form-control" id="email" placeholder="Enter email" required  data-error=" ">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="message" class="h4 formlabel">Message</label>
+							<label for="message" class="h4 formlabel en">Message</label>
+							<label for="message" class="h4 formlabel ru">Сообщение</label>
+							<label for="message" class="h4 formlabel ua">Повідомлення</label>
 							<textarea id="message" class="form-control col-xs-12" rows="5" placeholder="Enter your message" required data-error=" "></textarea>
 							<div class="help-block with-errors"></div>
 						</div>
-						<button type="submit" id="form-submit" class="btn btn-success pull-right ">Submit</button>
+						<button type="submit" id="form-submit" class="btn btn-success pull-right en">Send</button>
+						<button type="submit" id="form-submit" class="btn btn-success pull-right ru">Отправить</button>
+						<button type="submit" id="form-submit" class="btn btn-success pull-right ua">Надіслати</button>
 						<div id="msgSubmit" class="h3 text-center hidden"></div>
 						<div class="clearfix"></div>
 					</form>
