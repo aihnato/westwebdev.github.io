@@ -1,0 +1,437 @@
+ @media only screen and (max-device-width: 750px){
+   
+			body{
+	   		width: 750px;
+	  	}
+	  	.head{
+	  		height: 75px;
+	  	}
+	 		.logo{
+				top: 5px;
+			}
+	   	.head .lang,
+	   	.head .phone,
+	   	.head .phone-numb
+	   	{
+	   		display: none;
+	   	}
+	  	.site-nav{
+	   		margin-left: 28px;
+	  		float: right;
+	  	}
+	  	.head-ul{
+	  		height: 73px;
+	  		top:0px;
+	  		float: right;
+	  		right: -2px;
+	  	}
+	  	
+	  	.head-li{
+				line-height: 73px;
+			}
+			.head-li .a{
+				padding: 32px 15px; 
+			}
+			.btn{
+				display: none;
+			}
+			.slide, .slide-image{
+				height: 365px;
+			}
+			.slide-title{
+				top: 205px;
+				margin-left: 215px;
+				font-size: 24px;
+			}
+			.bline{
+				width: 750px;
+				height: 169px;
+				top: 170px;
+			}
+			#active label {
+				width: 9px;
+				height:9px;
+				}
+			#slide1:checked ~ #active label:nth-child(1),
+			#slide2:checked ~ #active label:nth-child(2),
+			#slide3:checked ~ #active label:nth-child(3)
+			{
+				width: 7px;
+				height: 7px;
+				background: none;
+			}
+			#controls {
+				width:650px;
+				top: 145px;
+			}
+			.block-2{
+				height: 354px;
+			}
+			.block-title{
+				padding-top: 45px;
+				margin-bottom: 30px;
+			}
+			.house{
+				width: 325px;
+				height: 219px;
+			}
+			.description{
+				width: 312px;
+			}
+			.text{
+				display: none;
+			}
+			.text:nth-child(2){
+				width: 312px;
+				display: block;
+				margin-bottom: 20px;
+				font-size: 13px;
+				line-height: 19px;
+			}
+			.slide-2{
+				height: 360px;
+			}
+			.inner-2 {
+				width: 590%;
+			}
+			.slide-image-2 img {
+				width: 301px; 
+				height: 222px;
+			}
+			#overflow-2 {
+				width: 633px;
+				margin: auto auto;
+			}
+			#controls-2 {
+				width: 690px;
+				top: 75px;
+			}						
+			#slide1-2:checked ~ #slides-2 .inner-2 { margin-left:0;} 
+			#slide2-2:checked ~ #slides-2 .inner-2 { margin-left:-100%;} 
+			#slide3-2:checked ~ #slides-2 .inner-2 { margin-left:-200%;} 
+			#slide4-2:checked ~ #slides-2 .inner-2 { margin-left:-300%;} 
+			#slide5-2:checked ~ #slides-2 .inner-2 { margin-left:-400%;} 
+
+			.block-table{
+				height: 378px;
+			}
+			th{
+				width: 170px;
+				height: 40px;
+				font-size: 18px;
+			}
+			th:nth-child(3n-1){
+				width: 80px;
+			}
+			th:nth-child(3){
+				width: 75px;
+			}
+			th:nth-child(4){
+				width: 115px;
+			}
+			td{
+				height: 25px;
+			}
+			tr:nth-child(2) > td:nth-child(2) {
+				position: relative;
+				top: -33px;
+			}
+			.block-register{
+				height: 434px;
+			}
+			input[type="login"], input[type="mail"],select[name="town"]{
+				width: 243px;
+				height: 29px;
+				margin-bottom: 10px;
+			}
+			.capt1{
+				position: relative;
+				right: 10px;
+				margin-top: 0px;
+			}
+			.capt{
+				right: 20px;
+			}
+			.cbox, .sel{
+				right: 0px;
+			}
+			select[name="town"]{
+				left: 18px;
+				width: 260px;
+				background: rgba(255, 255, 255, 0.2);
+				margin-top: 7px;
+			}
+			.select-button{
+				width: 29px;
+				height: 29px;
+				left: -15px;
+				top: 7px;
+			}
+			label {
+				margin-bottom: 5px;
+			}
+			label:before {
+				width: 11px;
+			}
+			input[type=radio]:checked + label:before {
+				line-height: 14px;
+				font-size: 24px;
+			}
+			input[type=checkbox]:checked + label:before {
+				font-size: 12px;
+				line-height: 14px;
+				padding-right: -1px;
+			}
+			.sub input[type="submit"]{
+				width: 243px;
+				height: 37px;
+				margin-top: 5px;
+			}
+			.w{
+				padding-top: 40px;
+				margin-bottom: 20px;
+			}
+			.footer{
+				height: 243px;	
+			}
+			.column{
+				width: 123px;
+				margin-right: 35px;
+				font-size: 11px;
+			}			
+			.soc{
+				margin-top: 35px;
+			}
+			.footd{
+				height: 24px;
+				line-height: 24px;
+			}			
+
+}
+
+		@media only screen and (max-device-width: 480px){
+  
+		  body{
+		  	width: 320px;
+		  }
+		  .ninja {
+		  	width: 52px;
+		  	height: 36px;
+		  	display: block;
+		  	position: relative;
+		  	top: 20px;
+		  	right: 47px;
+		  	background: url(ic_menu.png) no-repeat;
+	   		border: none;
+		  }
+		  .site-nav{
+		  	margin-left: 20px;
+	   		position: relative;
+	   		left: 50px;
+	   		top: 0;
+	   		z-index: 200;
+	   	}
+	   	.ninja,
+	   	.ninja:focus, 
+	   	.ninja:active{
+				outline: none;
+	   	}
+	   	.ninja:focus ~ .head-ul, 
+	   	.ninja:active ~ .head-ul,
+	   	.ninja:hover ~ .head-ul,
+			.head-ul:hover
+	   {
+		  	display: block;
+	   	}
+	   	.head-ul{
+		  	display: none;
+		   	background: #d0d0d0;
+				position: absolute;
+				top: 73px;
+				right: 45px;
+				height: 240px;
+				width: 130px;
+	   	}
+	  	.site-nav .head-ul:nth-child(2) .head-li:hover{
+				background: #b2a492;
+				color: #ffffff
+			}
+	   	.head-li a{
+				text-decoration: none;
+	   	}
+			.head-li{
+				height: 40px;
+				display: block;
+				margin: 0;
+				text-align: center;
+			}
+			.head-li .a{
+				display: block;
+				padding: 7px 20px; 
+				margin: 0;
+				line-height: 26px;
+			}
+			.slide2{
+				display: block;
+				height: 312px;
+				background: url(photo.png) no-repeat center center;
+			}
+			.slide{
+				display: none;
+			}		
+			.simg{
+				background: url(1.png);
+			}
+			.slide-title{
+				width: 254px;
+				line-height: 30px;
+				top: 165px;
+				margin-left: 30px;
+				font-size: 24px;
+			}
+			.bline{
+				width: 320px;
+				height: 238px;
+				top: 107px;
+			}
+			.block-2{
+				height: 558px;
+			}
+			.block-title{
+				padding-top: 30px;
+				margin-bottom: 20px;
+			}
+			.house{
+				width: 320px;
+				height: 214px;
+				margin: 0
+			}
+			.description{
+				width: 320px;
+				margin: 0;
+			}
+			.text:nth-child(2){
+				margin: 30px 0 20px 35px;
+				width: 255px;
+				font-size: 11.5px;
+			}
+			.button input[type="submit"]{
+				width: 90px;
+				height: 25px;
+				display: block;
+				margin: auto;
+				text-align: center;
+			}
+			.slide-2{
+				height: 315px;
+			}
+			.slide-2 .block-title{
+				margin-top:10px;
+				margin-bottom: 30px;
+			}
+			.slide-image-2 img {
+			width: 320px; 
+			height: 238px;
+			}
+			.inner-2 {
+				width: 1177%;  
+			}
+			#overflow-2 {
+				width: 320px; 
+				margin: auto auto; 
+			}
+			#controls-2 {
+				width:250px; 
+			}
+			#slide1-2:checked ~ #controls-2 label:nth-child(2),
+			#slide2-2:checked ~ #controls-2 label:nth-child(3),
+			#slide3-2:checked ~ #controls-2 label:nth-child(4),
+			#slide4-2:checked ~ #controls-2 label:nth-child(5),
+			#slide5-2:checked ~ #controls-2 label:nth-child(1)
+			{
+				background: url(right320.png) no-repeat center center;
+			}
+			#slide1-2:checked ~ #controls-2 label:nth-child(5),
+			#slide2-2:checked ~ #controls-2 label:nth-child(1),
+			#slide3-2:checked ~ #controls-2 label:nth-child(2),
+			#slide4-2:checked ~ #controls-2 label:nth-child(3),
+			#slide5-2:checked ~ #controls-2 label:nth-child(4)
+			{
+				background: url(left320.png) no-repeat center center;
+			}
+			.block-table{
+				display: none;
+			}
+			.block-register{
+				height: 464px;
+			}
+			.w span{
+				display: none;
+			}
+			input[type="login"], input[type="mail"],select[name="town"]{
+				width: 256px;
+				height: 32px;
+				margin-bottom: 10px;
+			}
+			select[name="town"]{
+				left: 19px;
+				width: 273px;
+				margin-top: 5px;
+			}
+			.select-button{
+				width: 32px;
+				height: 32px;
+				left: -18px;
+				margin-top: -2px;
+			}
+			.sub input[type="submit"]{
+				width: 256px;
+				height: 48px;
+				margin-top: 15px;
+			}
+			.capt{
+				right: 20px;
+			}
+			.cbox, .sel{
+				right: 0px;
+			}
+			.footer{
+				height: 261px;
+			}
+			.column{
+				width: 100%;
+				margin-right: 0px;
+			}
+			.column div{
+				line-height: 15px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.column div span:nth-child(2){
+				display: inline-block;
+			}
+			.row,
+			.column:nth-child(3),
+			.column div span:nth-child(3),
+			.column div span:nth-child(1),
+			.gmbh{
+				display: none;
+			}
+			.soc{
+				text-align: center;
+				margin: auto auto;
+				position: relative;
+				top: 45px;
+				left: 5px;
+				z-index: 100;
+				font-size: 20px;
+				color: #d9d2c9;
+			}
+			.soc i:hover{
+				color: #b2a492;
+			}
+			.footd{
+				z-index: 50;
+				height: 68px;
+			}
+		}

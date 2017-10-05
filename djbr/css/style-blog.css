@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+.fixed {
+  position: fixed;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  padding: 10px 0; }
+
+.header {
+  width: 100%; }
+
+.st-container {
+  width: 1024px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.logo {
+  font-family: "Raleway";
+  font-size: 28px;
+  position: relative;
+  top: 5px; }
+  .logo div {
+    color: #fff;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    top: -55%;
+    transform: translateY(50%);
+    font-family: "Raleway"; }
+
+.ninja {
+  display: none; }
+
+nav {
+  width: 65%;
+  text-align: right; }
+  nav li {
+    display: inline-block;
+    margin-left: 3.5%; }
+    nav li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      font-family: "FuturaPT";
+      font-size: 14px;
+      padding: 8px 0; }
+    nav li a:hover {
+      border-bottom: 2px solid #89b51e;
+      color: #89b51e; }
+  nav li:first-child {
+    margin-left: 0px; }
+  nav .logo {
+    display: none; }
+
+.fixed {
+  position: fixed;
+  top: 130px;
+  left: 0;
+  right: 0;
+  width: 110%;
+  padding: 10px 0;
+  margin: 0;
+  background: red;
+  z-index: 500; }
+
+.headhesive {
+  z-index: 2000;
+  background: #fff;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: 0.4s; }
+  .headhesive .st-container {
+    padding: 0; }
+  .headhesive .logo div {
+    color: #000; }
+  .headhesive li a {
+    color: #000; }
+
+.headhesive--stick {
+  transform: translateY(50px); }
+
+@media screen and (max-width: 720px) {
+  .fixed, .headhesive {
+    display: none; }
+  .bunner .ninja {
+    width: 20px;
+    height: 20px;
+    background: url("../image/Menu.png") center center no-repeat;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    border: none; }
+  .bunner .ninja:focus {
+    outline: none; }
+  .bunner nav {
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    position: absolute;
+    top: 0;
+    left: -200%;
+    background: grey;
+    height: 3538px;
+    width: 250px;
+    box-shadow: 130px 0px 0px 45px rgba(0, 0, 0, 0.59); }
+    .bunner nav li {
+      display: block;
+      text-align: left;
+      font-size: 16px;
+      margin-left: 15px;
+      margin-bottom: 35px;
+      top: 0%;
+      transform: translateY(0%); }
+    .bunner nav li:before {
+      content: '\2022';
+      color: #fff;
+      margin-right: 15px; }
+    .bunner nav .logo {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px; }
+  .bunner .ninja:focus ~ nav,
+  .bunner .ninja:active ~ nav {
+    left: 0%;
+    z-index: 200; }
+  .bunner nav:hover li {
+    display: block; }
+  .bunner {
+    width: 425px;
+    margin: auto;
+    background: url("../image/1-Home.png") center top no-repeat; }
+    .bunner .st-container {
+      padding: 20px 0; }
+    .bunner .logo {
+      margin: auto; }
+      .bunner .logo div {
+        transform: translateY(-55%);
+        font-size: 18px; }
+  .ninja {
+    display: block; } }
+
+.site-h {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "FuturaPTB";
+  margin-top: 110px;
+  margin-bottom: 70px;
+  color: #656565;
+  text-align: center; }
+  .site-h span {
+    color: #89b51e; }
+
+body {
+  min-width: 1120px;
+  margin: 0; }
+
+.bunner {
+  border-bottom: 2px solid #b2b2b2; }
+
+.st-container .logo div {
+  color: #656565; }
+
+.st-container nav a {
+  color: #656565; }
+
+.writing {
+  width: 1024px;
+  max-width: 95%;
+  margin: auto;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: "FuturaPT";
+  color: #656565; }
+  .writing .product {
+    width: 30%; }
+    .writing .product .img {
+      width: 100%;
+      height: 200px;
+      box-sizing: border-box;
+      margin-bottom: 25px; }
+  .writing .product:nth-child(3n+1) .img {
+    background: url("../image/Picture-10.png");
+    background-size: cover; }
+  .writing .product:nth-child(-3n+5) .img {
+    background: url("../image/Picture-11.png");
+    background-size: cover; }
+  .writing .product:nth-child(-3n+6) .img {
+    background: url("../image/Picture-12.png");
+    background-size: cover; }
+  .writing a {
+    text-decoration: none;
+    color: #89b51e;
+    font-size: 16px; }
+  .writing a:hover {
+    color: #688917; }
+  .writing .caption {
+    line-height: 22px;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+  .writing .text {
+    font-size: 18px;
+    font-family: "FuturaPTB";
+    text-align: justify;
+    line-height: 18px;
+    margin-bottom: 60px; }
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+footer {
+  background: #656565;
+  padding: 30px	0; }
+  footer .foot {
+    text-align: center;
+    margin: auto;
+    width: 1024px;
+    max-width: 95%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .foot .logo {
+      display: inline-block; }
+      footer .foot .logo div {
+        color: #fefefe;
+        top: -25%;
+        transform: translateY(25%); }
+    footer .foot nav {
+      display: inline-block;
+      width: 60%;
+      text-align: left;
+      padding-top: 15px; }
+      footer .foot nav li {
+        color: #e5e5e5;
+        top: 0%;
+        transform: translateY(0%);
+        margin-left: 4.7%; }
+    footer .foot .society i {
+      padding-top: 15px;
+      vertical-align: middle;
+      margin-left: 10px;
+      color: #e5e5e5; }
+    footer .foot .society i:hover {
+      color: #89b51e; }
+  footer .phone {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 45px;
+    font-family: "FuturaPT";
+    font-size: 18px;
+    color: #e6e6e6; }
+    footer .phone i {
+      margin-right: 15px;
+      color: #89b51e; }
+  footer .contact {
+    width: 1024px;
+    max-width: 95%;
+    margin: auto;
+    color: #e6e6e6;
+    font-family: "FuturaPT";
+    font-size: 14px;
+    position: relative;
+    top: -20px; }
+
+@media all and (max-width: 1025px) {
+  footer .foot nav {
+    width: 55%;
+    margin-left: 3%; }
+    footer .foot nav li {
+      margin-left: 2.6%; } }
+
+@media all and (max-width: 720px) {
+  footer {
+    width: 425px;
+    margin: auto;
+    padding: 15px 0; }
+    footer .foot .logo {
+      display: none; }
+    footer .foot nav {
+      width: 95%;
+      display: block;
+      text-align: center;
+      margin: auto; }
+      footer .foot nav li {
+        margin: 0 10px 25px;
+        font-size: 12px; }
+    footer .foot .ph-e {
+      width: 95%;
+      display: block;
+      margin: auto;
+      text-align-last: justify; }
+      footer .foot .ph-e .phone {
+        margin: 0;
+        font-size: 14px; }
+    footer .foot .society {
+      margin: 0 auto 10px; }
+    footer .contact {
+      font-size: 12px;
+      text-align: center;
+      margin: 10px auto;
+      top: 0; }
+  .site-h {
+    font-size: 22px;
+    margin: 40px 0 30px; } }
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  body {
+    min-width: 425px;
+    margin: auto; }
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 1238px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .site-h {
+    margin-top: 40px; }
+  .writing {
+    width: 425px;
+    display: block; }
+    .writing .product {
+      width: 100%; }
+    .writing .product:nth-child(n+3) {
+      display: none; } }
+
+/*# sourceMappingURL=style-blog.css.map */

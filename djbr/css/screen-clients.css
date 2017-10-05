@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  body {
+    min-width: 425px;
+    margin: auto; }
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 1341px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .brends {
+    width: 425px; }
+    .brends div {
+      width: 50%; }
+      .brends div img {
+        width: 70%; }
+  .sl-capt {
+    font-size: 16px; }
+  .reviews {
+    width: 425px;
+    margin: auto; }
+    .reviews #controls {
+      width: 110%;
+      left: -15px; }
+    .reviews .slider {
+      width: 425px; }
+    .reviews .inner {
+      padding-left: 30px;
+      width: 750%; }
+      .reviews .inner .slide-image {
+        height: 240px;
+        width: 11%;
+        background-position: -30px -25px; }
+    .reviews #overflow {
+      height: 270px; }
+    .reviews #slide2:checked ~ #slides .inner {
+      margin-left: -95%; }
+    .reviews #slide3:checked ~ #slides .inner {
+      margin-left: -190%; }
+    .reviews #slide4:checked ~ #slides .inner {
+      margin-left: -284%; }
+    .reviews #slide5:checked ~ #slides .inner {
+      margin-left: -378%; }
+    .reviews #slide6:checked ~ #slides .inner {
+      margin-left: -473%; } }
+
+/*# sourceMappingURL=screen-clients.css.map */

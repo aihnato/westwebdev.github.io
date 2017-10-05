@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+.fixed {
+  position: fixed;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  padding: 10px 0; }
+
+.header {
+  width: 100%; }
+
+.st-container {
+  width: 1024px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.logo {
+  font-family: "Raleway";
+  font-size: 28px;
+  position: relative;
+  top: 5px; }
+  .logo div {
+    color: #fff;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    top: -55%;
+    transform: translateY(50%);
+    font-family: "Raleway"; }
+
+.ninja {
+  display: none; }
+
+nav {
+  width: 65%;
+  text-align: right; }
+  nav li {
+    display: inline-block;
+    margin-left: 3.5%; }
+    nav li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      font-family: "FuturaPT";
+      font-size: 14px;
+      padding: 8px 0; }
+    nav li a:hover {
+      border-bottom: 2px solid #89b51e;
+      color: #89b51e; }
+  nav li:first-child {
+    margin-left: 0px; }
+  nav .logo {
+    display: none; }
+
+.fixed {
+  position: fixed;
+  top: 130px;
+  left: 0;
+  right: 0;
+  width: 110%;
+  padding: 10px 0;
+  margin: 0;
+  background: red;
+  z-index: 500; }
+
+.headhesive {
+  z-index: 2000;
+  background: #fff;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: 0.4s; }
+  .headhesive .st-container {
+    padding: 0; }
+  .headhesive .logo div {
+    color: #000; }
+  .headhesive li a {
+    color: #000; }
+
+.headhesive--stick {
+  transform: translateY(50px); }
+
+@media screen and (max-width: 720px) {
+  .fixed, .headhesive {
+    display: none; }
+  .bunner .ninja {
+    width: 20px;
+    height: 20px;
+    background: url("../image/Menu.png") center center no-repeat;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    border: none; }
+  .bunner .ninja:focus {
+    outline: none; }
+  .bunner nav {
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    position: absolute;
+    top: 0;
+    left: -200%;
+    background: grey;
+    height: 3538px;
+    width: 250px;
+    box-shadow: 130px 0px 0px 45px rgba(0, 0, 0, 0.59); }
+    .bunner nav li {
+      display: block;
+      text-align: left;
+      font-size: 16px;
+      margin-left: 15px;
+      margin-bottom: 35px;
+      top: 0%;
+      transform: translateY(0%); }
+    .bunner nav li:before {
+      content: '\2022';
+      color: #fff;
+      margin-right: 15px; }
+    .bunner nav .logo {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px; }
+  .bunner .ninja:focus ~ nav,
+  .bunner .ninja:active ~ nav {
+    left: 0%;
+    z-index: 200; }
+  .bunner nav:hover li {
+    display: block; }
+  .bunner {
+    width: 425px;
+    margin: auto;
+    background: url("../image/1-Home.png") center top no-repeat; }
+    .bunner .st-container {
+      padding: 20px 0; }
+    .bunner .logo {
+      margin: auto; }
+      .bunner .logo div {
+        transform: translateY(-55%);
+        font-size: 18px; }
+  .ninja {
+    display: block; } }
+
+/*# sourceMappingURL=header.css.map */

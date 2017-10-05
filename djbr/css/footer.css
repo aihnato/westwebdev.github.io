@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+footer {
+  background: #656565;
+  padding: 30px	0; }
+  footer .foot {
+    text-align: center;
+    margin: auto;
+    width: 1024px;
+    max-width: 95%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .foot .logo {
+      display: inline-block; }
+      footer .foot .logo div {
+        color: #fefefe;
+        top: -25%;
+        transform: translateY(25%); }
+    footer .foot nav {
+      display: inline-block;
+      width: 60%;
+      text-align: left;
+      padding-top: 15px; }
+      footer .foot nav li {
+        color: #e5e5e5;
+        top: 0%;
+        transform: translateY(0%);
+        margin-left: 4.7%; }
+    footer .foot .society i {
+      padding-top: 15px;
+      vertical-align: middle;
+      margin-left: 10px;
+      color: #e5e5e5; }
+    footer .foot .society i:hover {
+      color: #89b51e; }
+  footer .phone {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 45px;
+    font-family: "FuturaPT";
+    font-size: 18px;
+    color: #e6e6e6; }
+    footer .phone i {
+      margin-right: 15px;
+      color: #89b51e; }
+  footer .contact {
+    width: 1024px;
+    max-width: 95%;
+    margin: auto;
+    color: #e6e6e6;
+    font-family: "FuturaPT";
+    font-size: 14px;
+    position: relative;
+    top: -20px; }
+
+@media all and (max-width: 1025px) {
+  footer .foot nav {
+    width: 55%;
+    margin-left: 3%; }
+    footer .foot nav li {
+      margin-left: 2.6%; } }
+
+@media all and (max-width: 720px) {
+  footer {
+    width: 425px;
+    margin: auto;
+    padding: 15px 0; }
+    footer .foot .logo {
+      display: none; }
+    footer .foot nav {
+      width: 95%;
+      display: block;
+      text-align: center;
+      margin: auto; }
+      footer .foot nav li {
+        margin: 0 10px 25px;
+        font-size: 12px; }
+    footer .foot .ph-e {
+      width: 95%;
+      display: block;
+      margin: auto;
+      text-align-last: justify; }
+      footer .foot .ph-e .phone {
+        margin: 0;
+        font-size: 14px; }
+    footer .foot .society {
+      margin: 0 auto 10px; }
+    footer .contact {
+      font-size: 12px;
+      text-align: center;
+      margin: 10px auto;
+      top: 0; }
+  .site-h {
+    font-size: 22px;
+    margin: 40px 0 30px; } }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  body {
+    min-width: 425px; }
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 1330px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .site-h {
+    margin: 40px 0 20px; }
+  .works {
+    max-width: 425px; }
+    .works nav {
+      margin: 15px auto; }
+    .works .pict:nth-child(3) {
+      background: url("../image/Brilliant-Move.png") 50% 50%; }
+    .works .pict:nth-child(4) {
+      background: url("../image/Bobber.png") 50% 50%; }
+    .works .pict:nth-child(5) {
+      display: none; }
+    .works input[type="submit"] {
+      cursor: pointer;
+      display: block;
+      margin: 30px auto 40px;
+      background: none;
+      border: 2px solid #89b51e;
+      color: #89b51e;
+      font-size: 18px;
+      font-family: "FuturaPT";
+      text-transform: uppercase;
+      padding: 10px 50px; }
+    .works input[type="submit"]:active {
+      background: #89b51e;
+      color: #fff; } }
+
+/*# sourceMappingURL=screen-portfolio.css.map */

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 1308px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .picture {
+    width: 425px;
+    margin: auto;
+    background: url("../image/Picture-14.png") center center no-repeat;
+    background-size: cover;
+    padding: 20px 0; }
+    .picture .caption {
+      font-size: 28px;
+      margin: 15px auto; }
+    .picture .none375 {
+      display: none; }
+    .picture .none1024 {
+      display: block;
+      padding: 90px 0; }
+  .text {
+    width: 425px;
+    margin-top: 30px; }
+    .text .column {
+      width: 90%;
+      margin: auto;
+      display: block; }
+    .text .column:first-child p:nth-child(3):after {
+      content: 'Ask yourself: what will the world look like in thirty years? Electric cars with autopilot? Doctors that can diagnose you over the Internet? Self - cleaning plates and self -recycling trash? Whatever you have in mind the key to achieving it is the correct technology.'; }
+    .text .column:first-child p:nth-child(5) {
+      display: none; }
+    .text .column:last-child {
+      float: none; }
+      .text .column:last-child p:nth-child(2), .text .column:last-child p:nth-child(3) {
+        display: none; } }
+
+/*# sourceMappingURL=screen-blog-internal.css.map */

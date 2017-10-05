@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  body {
+    min-width: 425px;
+    margin: auto; }
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 1238px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .site-h {
+    margin-top: 40px; }
+  .writing {
+    width: 425px;
+    display: block; }
+    .writing .product {
+      width: 100%; }
+    .writing .product:nth-child(n+3) {
+      display: none; } }
+
+/*# sourceMappingURL=screen-blog.css.map */

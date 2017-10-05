@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("../fonts/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("../fonts/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("../fonts/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("../fonts/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("../fonts/FuturaPTDemi.ttf"); }
+
+@media all and (max-width: 720px) {
+  body {
+    min-width: 425px;
+    margin: auto; }
+  .bunner {
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    position: relative; }
+    .bunner .ninja {
+      background: url("../image/Menu-1.png") center center no-repeat; }
+    .bunner nav {
+      height: 2140px; }
+      .bunner nav a {
+        color: #fff; }
+      .bunner nav .logo div {
+        color: #fff; }
+    .bunner .st-effect-1.st-menu-open .st-effect-1.st-menu {
+      visibility: visible;
+      transform: translate3d(340%, 0, 0);
+      z-index: 300; }
+  .what-we-do {
+    width: 425px;
+    margin-bottom: 0; }
+    .what-we-do .site-h {
+      margin: 40px 0 20px;
+      font-size: 22px;
+      text-align: center; }
+      .what-we-do .site-h .block {
+        font-size: 14px; }
+    .what-we-do .artcl:nth-child(2),
+    .what-we-do .artcl:nth-child(3),
+    .what-we-do .artcl:nth-child(4) {
+      float: none;
+      width: 100%; }
+    .what-we-do .artcl:nth-child(4) .block {
+      -moz-column-count: 1;
+      column-count: 1; }
+      .what-we-do .artcl:nth-child(4) .block li {
+        list-style: none; }
+      .what-we-do .artcl:nth-child(4) .block li:before {
+        content: '\2022';
+        color: #89b51e; }
+  .what-we-do:after {
+    width: 100%;
+    transform: translateX(0%);
+    top: 40px; }
+  .none375 {
+    display: none; }
+  .none1024 {
+    display: block; }
+  .site-h {
+    margin-top: 0px;
+    margin-bottom: 25px; }
+  .tech {
+    width: 425px;
+    margin-bottom: 25px; }
+    .tech .tech-block {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px; }
+      .tech .tech-block .img {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        display: inline-block; }
+      .tech .tech-block .text {
+        width: 230px;
+        font-size: 16px;
+        display: inline-block;
+        text-align: left;
+        margin-left: 30px; }
+        .tech .tech-block .text div {
+          font-size: 14px; }
+    .tech .tech-block:nth-child(1) .text div {
+      width: 100%;
+      margin: auto; } }
+
+/*# sourceMappingURL=screen-about-us.css.map */
