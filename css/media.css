@@ -58,7 +58,7 @@
 @media all and (max-width: 900px) {
   .popup-more {
     width: 90%;
-    min-height: 450px;
+    min-height: 400px;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-align: center;
@@ -73,7 +73,9 @@
       top: 0;
       transform: none; }
     .popup-more .open {
-      height: 30px; } }
+      height: 30px;
+      position: relative;
+      margin-top: 15px; } }
 
 @media all and (max-width: 896px) {
   #call .contact .cont-list {

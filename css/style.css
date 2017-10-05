@@ -246,7 +246,9 @@ button:focus {
     font-size: 40px;
     letter-spacing: 2px; }
     #first .motto span {
-      color: #2cac8f; }
+      color: #2cac8f;
+      text-shadow: 0 0 4px #d5314a;
+      font-weight: bold; }
   #first .arr-down {
     top: 85%; }
     #first .arr-down i {

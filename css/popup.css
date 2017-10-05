@@ -78,7 +78,8 @@
     font-size: 22px;
     font-family: FuturaPTL;
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    overflow: auto; }
   .popup .popup-h {
     margin-bottom: 15px;
     font-size: 30px; }
