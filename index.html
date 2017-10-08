@@ -28,9 +28,51 @@
 
   <!-- <script  type="text/javascript" src="js/callback/jquery-1.11.2.min.js"></script> -->
 
+
+<style>
+	#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    /*width: 32px;*/
+    /*height: 32px;*/
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: 	translate(-50%, -50%);
+    -ms-transform: 	translate(-50%, -50%);
+    -o-transform: 	translate(-50%, -50%);
+    transform: 	translate(-50%, -50%);
+    background: url('/img/spinner.gif') no-repeat 50% 50%;
+    -webkit-background-size: 	contain;
+    background-size: 	contain;
+    /*margin: -16px 0 0 -16px;*/
+}
+</style>
+
+<script>
+	$(window).on('load', function () {
+    var $preloader = $('#page-preloader'),
+        $spinner   = $preloader.find('.spinner');
+    $spinner.fadeOut();
+    $preloader.delay(1000).fadeOut('slow');
+});
+</script>
+
 </head>
 <body> 
-	
+	<div id="page-preloader"><span class="spinner"></span></div>
+
+
 	<div id="fade"></div>
 	<div id="fade-2"></div>
 	<div id="fade-popup"></div>
@@ -504,62 +546,7 @@
 		</div>
   </footer>
 
-<?php
 
-$errorMSG = "";
-
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
-} else {
-    $name = $_POST["name"];
-}
-
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
-} else {
-    $email = $_POST["email"];
-}
-
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-    $message = $_POST["message"];
-}
-
-
-$EmailTo = "anatolij.ignatyo@gmail.com";
-$Subject = "New Message Received";
-
-// prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
-
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
-
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
-}
-
-?>
 
   <!-- Start page-->
   <!-- <script type="text/javascript" src="js/start.js"></script> -->
@@ -575,7 +562,7 @@ if ($success && $errorMSG == ""){
   <script  type="text/javascript" src="js/callback/jquery-1.11.2.min.js"></script>
   <script type="text/javascript" src="js/callback/validator.min.js"></script>
   <script type="text/javascript" src="js/callback/form-scripts.js"></script>
-  
+
 
   <!-- flickity slider -->
   <script src="js/flickity.min.js"></script>
