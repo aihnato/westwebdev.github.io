@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("/fonts/FuturaPT/FuturaPTMedium.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTL';
+  src: url("/fonts/FuturaPT/FuturaPTLight.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTB';
+  src: url("/fonts/FuturaPT/FuturaPTBook.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTH';
+  src: url("/fonts/FuturaPT/FuturaPTHeavy.ttf"); }
+
+@font-face {
+  font-family: 'FuturaPTD';
+  src: url("/fonts/FuturaPT/FuturaPTDemi.ttf"); }
+
+@font-face {
+  font-family: 'MaryadPro';
+  src: url("/fonts/MyriadPro/MyriadPro-Regular.otf"); }
+
+@media all and (max-width: 991px) {
+  .header {
+    padding-bottom: 0; }
+    .header .header-form {
+      margin-bottom: 0;
+      border-radius: 0; }
+      .header .header-form .btn {
+        border-radius: 0; } }
+
+@media all and (max-width: 768px) {
+  .feature-1 .tabs {
+    padding: 0; }
+    .feature-1 .tabs .tab {
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 0; }
+  .feature-1 .btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+  .feature-1 .features-h {
+    margin-top: 20px !important; }
+  .section-h {
+    font-size: 28px; }
+  .process .process-icon {
+    font-size: 20px;
+    padding: 14px 22px; }
+  .process .process-column:nth-child(2) .process-icon {
+    padding: 14px 17px; }
+  .process .process-content {
+    margin-top: 30px; }
+  .pricing .pricing-content {
+    margin-top: 0px; }
+    .pricing .pricing-content .pricing-slot:hover .package {
+      transition: 0.3s ease;
+      -webkit-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      -ms-transition: 0.3s ease;
+      -o-transition: 0.3s ease; }
+    .pricing .pricing-content .pricing-slot:hover .recommendation {
+      border: 2px solid #b0b0b3; }
+  .testimonials > .site-text {
+    margin-bottom: 0; } }
+
+@media all and (max-width: 766px) {
+  .feature-2 .feature-img,
+  .feature-3 .feature-img {
+    display: none; }
+  .process .process-column {
+    height: 116px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease; }
+  .process .site-text {
+    transform: translate(0, -50px);
+    opacity: 0;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease; }
+  .process .site-t {
+    opacity: 1;
+    transform: translate(0, 0px); }
+  .process-column:hover {
+    height: 221px; }
+  .process-column:hover .site-text {
+    height: 221px;
+    opacity: 1;
+    transform: translate(0, 0px); }
+  .pricing .pricing-content .pricing-slot {
+    height: 69px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; }
+    .pricing .pricing-content .pricing-slot .package {
+      transform: translate(0, 0px); }
+    .pricing .pricing-content .pricing-slot .recommendation {
+      box-sizing: border-box;
+      border: 2px solid #b0b0b3; }
+    .pricing .pricing-content .pricing-slot .package-list {
+      position: relative; }
+  .pricing .pricing-content .pricing-slot:hover {
+    height: 550px; } }
+
+@media all and (max-width: 425px) {
+  .social .social-icon {
+    font-size: 30px; }
+  .section-h {
+    font-size: 24px; }
+  .pricing .pricing-content .pricing-slot {
+    height: 69px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; }
+    .pricing .pricing-content .pricing-slot .package {
+      transform: translate(0, 0px); }
+    .pricing .pricing-content .pricing-slot .recommendation {
+      box-sizing: border-box;
+      border: 2px solid #b0b0b3; }
+    .pricing .pricing-content .pricing-slot .package-list {
+      position: relative; }
+  .pricing .pricing-content .pricing-slot:hover {
+    height: 550px; } }
+
+/*# sourceMappingURL=media.css.map */
