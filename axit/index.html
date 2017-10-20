@@ -33,9 +33,9 @@
 	      <div class="container-fluid p0 max-w">
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="navbar-header">
-	           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span> 
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
@@ -94,7 +94,7 @@
 		<div class="social-content max-w row">
 			<div class="social-text p0 col-md-5 col-xs-12">
 				<h3 class="social-h">Social Media</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga veritatis, fugiat. </p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga veritatis, fugiat.</p>
 			</div>
 			<div class="social-icon p0 col-md-7 col-xs-12">
 				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -329,6 +329,18 @@
 		</div>
 	</footer>
 
+
+<script>
+	$(".navbar-collapse a").click(function() {
+  //если она не имеет класс dropdown-toggle
+  if (!$(this).hasClass("dropdown-toggle")) {
+    //то закрыть меню
+    $(".navbar-collapse").collapse('hide');
+    return false;
+  }
+});
+
+</script>
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
