@@ -33,7 +33,7 @@ section {
   height: 420px;
   float: left;
   margin-right: 40px;
-  background: url("/img/lightbringer-trans.png") no-repeat 50% 50%;
+  background: url("/westwebdev.github.io/two/img/lightbringer-trans.png") no-repeat 50% 50%;
   background-size: cover; }
 
 .id {
@@ -57,11 +57,11 @@ section {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
-    background: url("/img/star.png");
+    background: url("/westwebdev.github.io/two/img/star.png");
     width: 18px;
     height: 18px; }
   .rating :hover {
-    background: url("/img/star-colored.png"); }
+    background: url("/westwebdev.github.io/two/img/star-colored.png"); }
 
 .share {
   color: #2c87ce;
@@ -86,7 +86,7 @@ section {
 
 .toggle {
   color: #2c87ce;
-  background: url("/img/background-share-it.png") no-repeat;
+  background: url("/westwebdev.github.io/two/img/background-share-it.png") no-repeat;
   background-size: contain;
   padding: 15px 10px 20px;
   transition: 0.5s ease;
@@ -232,22 +232,22 @@ input[type="submit"]:focus {
     margin: 0 10px 10px 0;
     position: relative; }
   .grid .product-1 {
-    background: url("/img/product-1.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-1.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .product-2 {
-    background: url("/img/product-2.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-2.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .product-3 {
-    background: url("/img/product-3.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-3.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .product-4 {
-    background: url("/img/product-4.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-4.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .product-5 {
-    background: url("/img/product-5.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-5.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .product-6 {
-    background: url("/img/product-6.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/two/img/product-6.png") no-repeat 50% 50%;
     background-size: cover; }
   .grid .price {
     display: inline-block;
