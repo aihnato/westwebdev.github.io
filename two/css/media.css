@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@media all and (max-width: 768px) {
+  body {
+    min-width: 402px; }
+  section {
+    max-width: 640px; }
+  .desktop {
+    display: none; }
+  .mobile {
+    display: block; }
+  .product h2 {
+    margin-left: 15px; }
+  .image {
+    width: 335px;
+    height: 354px;
+    margin-right: 20px;
+    margin-left: 15px;
+    box-sizing: border-box; }
+  .info {
+    width: 37%; }
+  .share span {
+    display: none; }
+  .toggle {
+    display: block;
+    background: none;
+    position: absolute;
+    top: -10px;
+    left: -360px; }
+    .toggle .share-h, .toggle .close {
+      display: none; }
+    .toggle .social {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .size .size-caption {
+    margin-left: 0; }
+  .grid {
+    text-align: center; }
+    .grid .product {
+      width: 280px;
+      height: 280px;
+      margin: 0 40px 40px 0 !important; }
+    .grid .product:nth-child(9),
+    .grid .product:nth-child(7),
+    .grid .product:nth-child(5) {
+      margin-right: 0px !important; }
+    .grid .price {
+      width: 92.8%;
+      bottom: 0; }
+    .grid .price:before {
+      opacity: 0.7;
+      bottom: 0; } }
+
+@media all and (max-width: 620px) {
+  body {
+    min-width: 402px; }
+  section {
+    max-width: 402px; }
+  .product h2 {
+    width: 330px;
+    margin: 20px auto; }
+  .image {
+    width: 100%;
+    max-width: 402px;
+    height: 420px;
+    margin-right: 0; }
+  .info {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    display: block; }
+  .id {
+    font-size: 12px; }
+  .price {
+    font-size: 36px;
+    margin-top: 15px; }
+  .rating {
+    margin-top: 15px;
+    margin-bottom: 0; }
+  .share {
+    margin-left: 0; }
+  .toggle {
+    padding: 0;
+    margin: 20px 0;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0; }
+    .toggle .social {
+      display: inline-block; }
+    .toggle .social:nth-child(3) {
+      margin-left: 0; }
+  .details {
+    font-size: 14px; }
+  .size {
+    text-align: center; }
+    .size .size-caption {
+      margin: 10px 10px; }
+  input[type="submit"] {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0); }
+  .grid {
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+    position: relative; }
+    .grid h2 {
+      text-align: center; }
+    .grid .control {
+      display: block;
+      position: absolute;
+      top: 55%; }
+    .grid .left {
+      left: 20px; }
+    .grid .right {
+      left: 350px; }
+    .grid .product {
+      margin: 0 !important;
+      width: 280px;
+      display: inline-block; } }
+
+/*# sourceMappingURL=media.css.map */
