@@ -140,7 +140,7 @@
   .grid #slide6:checked ~ #controls label:nth-child(1) {
     width: 50px;
     height: 50px;
-    background: url("/img/right.png") no-repeat center center;
+    background: url("/westwebdev.github.io/astound/img/right.png") no-repeat center center;
     float: right;
     margin-right: -5px;
     display: block; }
@@ -152,7 +152,7 @@
   .grid #slide6:checked ~ #controls label:nth-child(5) {
     width: 50px;
     height: 50px;
-    background: url("/img/left.png") no-repeat center center;
+    background: url("/westwebdev.github.io/astound/img/left.png") no-repeat center center;
     float: left;
     display: block; }
   .grid #slide1:checked ~ #slides .inner {
