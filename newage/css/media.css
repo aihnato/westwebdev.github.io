@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@media all and (max-width: 968px) {
+  .portfolio:before {
+    background-size: cover; }
+  .portfolio .portfolio-course .course {
+    min-width: 220px; }
+    .portfolio .portfolio-course .course .p {
+      font-size: 20px; }
+    .portfolio .portfolio-course .course .img {
+      width: 80%;
+      height: 100px; }
+  .pricing .pricing-content .pricing-slot {
+    min-width: 150px; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-img {
+      height: 110px; }
+    .pricing .pricing-content .pricing-slot button {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 90%;
+      right: 50%;
+      transform: translate(50%, 0); }
+  .about .story .story-school {
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .about .story .story-school .story-school-item {
+      width: 90%; } }
+
+@media all and (max-width: 767px) {
+  .navbar .navbar-collapse {
+    background: rgba(59, 59, 59, 0.5); }
+  .contact .contact-content {
+    padding: 0 !important; }
+  .contact .contact-numbers {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .contact .contact-form {
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    box-shadow: none; }
+  footer {
+    padding: 25px 0 15px; } }
+
+@media all and (max-width: 736px) {
+  .portfolio:before {
+    transform: rotate(90deg);
+    top: 25px; }
+  .portfolio {
+    padding-bottom: 0; }
+  .pricing .pricing-content .pricing-slot {
+    min-width: 220px; }
+  .gallery-h:before {
+    width: 50%; } }
+
+@media all and (max-width: 660px) {
+  .nav-arrows span {
+    width: 30px !important;
+    height: 30px !important; } }
+
+@media all and (max-width: 506px) {
+  .main-head-slider .sl-slider-h {
+    font-size: 60px; }
+    .main-head-slider .sl-slider-h span:last-child {
+      font-size: 20px; }
+  .portfolio:before {
+    background: none; }
+  .portfolio .portfolio-course .course {
+    min-width: 180px; }
+    .portfolio .portfolio-course .course .p {
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .portfolio .portfolio-course .course .img {
+      width: 60%;
+      height: 60px; }
+  .pricing:before {
+    top: 52%;
+    height: 51%; }
+  .pricing .pricing-content .pricing-slot {
+    min-width: 180px; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-img {
+      height: 55%; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-name h4 {
+      padding: 5px 15px 35px; } }
+
+@media all and (max-width: 426px) {
+  .portfolio .portfolio-course .course {
+    min-width: 280px; }
+    .portfolio .portfolio-course .course .p {
+      font-size: 24px;
+      padding-left: 20px;
+      padding-right: 20px; }
+    .portfolio .portfolio-course .course .img {
+      width: 80%;
+      height: 80px; }
+  .pricing:before {
+    top: 52%;
+    height: 75%; }
+  .pricing .pricing-content .pricing-slot {
+    min-width: 280px; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-img {
+      height: 70%; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-name h4 {
+      padding: 5px 15px 35px; } }
+
+@media all and (max-width: 375px) {
+  .main-head-slider .sl-slider-h {
+    font-size: 50px; }
+    .main-head-slider .sl-slider-h span:last-child {
+      font-size: 16px; } }
+
+/*# sourceMappingURL=media.css.map */
