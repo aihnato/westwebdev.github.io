@@ -44,7 +44,6 @@
 
 @media all and (max-width: 736px) {
   .portfolio:before {
-    transform: rotate(90deg);
     top: 25px; }
   .portfolio {
     padding-bottom: 0; }
