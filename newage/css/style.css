@@ -330,7 +330,6 @@ button:focus {
     position: relative; }
   .about .story .story-text {
     font-size: 24px;
-    text-align: justify;
     margin-bottom: 20px; }
     .about .story .story-text .new {
       font-style: italic;
