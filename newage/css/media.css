@@ -49,6 +49,8 @@
     padding-bottom: 0; }
   .pricing .pricing-content .pricing-slot {
     min-width: 220px; }
+    .pricing .pricing-content .pricing-slot .pricing-slot-img {
+      height: 130px; }
   .gallery-h:before {
     width: 50%; } }
 
@@ -79,7 +81,7 @@
   .pricing .pricing-content .pricing-slot {
     min-width: 180px; }
     .pricing .pricing-content .pricing-slot .pricing-slot-img {
-      height: 55%; }
+      height: 120px; }
     .pricing .pricing-content .pricing-slot .pricing-slot-name h4 {
       padding: 5px 15px 35px; } }
 
