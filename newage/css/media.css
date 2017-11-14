@@ -25,6 +25,10 @@
     .about .story .story-school .story-school-item {
       width: 90%; } }
 
+@media all and (max-width: 800px) {
+  .navbar li a {
+    font-size: 15px; } }
+
 @media all and (max-width: 767px) {
   .navbar .navbar-collapse {
     background: rgba(59, 59, 59, 0.5); }
