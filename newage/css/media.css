@@ -29,11 +29,11 @@
   .navbar li a {
     font-size: 16px; } }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 830px) {
   header .header-phone {
     font-size: 18px; }
   .navbar li a {
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 @media all and (max-width: 767px) {
   .navbar .navbar-collapse {
