@@ -63,7 +63,7 @@ header .header-phone:before {
   opacity: 0.7; }
 
 header .header-phone {
-  z-index: 10000;
+  z-index: 100;
   color: #f9bf33;
   font-size: 22px;
   position: fixed;
