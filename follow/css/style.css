@@ -50,7 +50,7 @@ body {
 .block-1 {
   width: 100%;
   margin: 0 auto;
-  background: url("/img/bl1-bg.png") no-repeat 50% 0;
+  background: url("/westwebdev.github.io/follow/img/bl1-bg.png") no-repeat 50% 0;
   background-size: cover;
   padding-bottom: 100px; }
   .block-1 .head {
@@ -98,7 +98,7 @@ body {
       .block-1 .head .brand .brand-orbit {
         width: 80px;
         height: 80px;
-        background: url("/img/brand.png") 50% 50% no-repeat;
+        background: url("/westwebdev.github.io/follow/img/brand.png") 50% 50% no-repeat;
         text-align: center; }
         .block-1 .head .brand .brand-orbit a {
           position: relative;
@@ -166,7 +166,7 @@ body {
           .block-1 .block-1-info .list ul li span {
             vertical-align: middle; }
     .block-1 .block-1-info .form:before {
-      content: url(/img/girl-form.png);
+      content: url(/westwebdev.github.io/follow/img/girl-form.png);
       background: none;
       position: absolute;
       top: 0;
@@ -347,7 +347,7 @@ body {
         height: 100%; }
 
 .block-4 {
-  background: url("/img/block-4-bg.png") no-repeat 100% 0%;
+  background: url("/westwebdev.github.io/follow/img/block-4-bg.png") no-repeat 100% 0%;
   background-size: cover;
   padding-bottom: 400px; }
   .block-4 .block-4-content {
@@ -377,7 +377,7 @@ body {
         margin-top: 40px;
         margin-bottom: 40px; }
       .block-4 .block-4-content .block-4-list .list-item:before {
-        content: url(/img/checked.png);
+        content: url(/westwebdev.github.io/follow/img/checked.png);
         position: relative;
         left: -6px; }
 
@@ -421,7 +421,7 @@ body {
     margin: 70px auto; }
     .block-7 .block-7-all .block-7-img {
       width: 55%;
-      background: url("/img/block-7-img-1.png") no-repeat 50% 50%;
+      background: url("/westwebdev.github.io/follow/img/block-7-img-1.png") no-repeat 50% 50%;
       background-size: cover;
       max-width: 688px;
       min-height: 300px;
@@ -477,12 +477,12 @@ body {
   .block-7 .block-7-blocks-2 .text-h {
     max-width: 360px; }
   .block-7 .block-7-blocks-2 .block-7-img {
-    background: url("/img/block-7-img-2.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/follow/img/block-7-img-2.png") no-repeat 50% 50%;
     background-size: cover; }
     .block-7 .block-7-blocks-2 .block-7-img .img-caption {
       left: 65px; }
   .block-7 .block-7-blocks-3 .block-7-img {
-    background: url("/img/block-7-img-3.png") no-repeat 50% 50%;
+    background: url("/westwebdev.github.io/follow/img/block-7-img-3.png") no-repeat 50% 50%;
     background-size: cover; }
     .block-7 .block-7-blocks-3 .block-7-img .img-caption {
       left: 45px; }
@@ -842,7 +842,7 @@ body {
         padding-top: 75px;
         margin-bottom: 50px; }
         .block-10 .pre-footer .pre-footer-content .links .link:before {
-          content: url(/img/loc.png);
+          content: url(/westwebdev.github.io/follow/img/loc.png);
           margin-right: 10px;
           position: relative;
           top: 5px; }
@@ -912,7 +912,7 @@ body {
           color: #fff;
           margin-top: 40px; }
           .block-10 .pre-footer .pre-footer-content .contacts .phone p:before {
-            content: url(/img/phone.png);
+            content: url(/westwebdev.github.io/follow/img/phone.png);
             position: relative;
             top: 5px;
             margin-right: 5px; }
