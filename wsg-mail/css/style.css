@@ -1,20 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@font-face {
-  font-family: 'Bold';
-  src: url("/fonts/AG Letterica Bold.ttf"); }
-
-@font-face {
-  font-family: 'Roman';
-  src: url("/fonts/AG Letterica Roman.ttf"); }
-
-@font-face {
-  font-family: 'Helvetica-l';
-  src: url("/fonts/Helvetica/HLL.ttf"); }
-
-@font-face {
-  font-family: 'Helvetica-r';
-  src: url("/fonts/Helvetica/HELR45W.ttf"); }
-
 body {
   margin: 0;
   padding: 0;
@@ -25,7 +8,7 @@ body {
 
 .mail-header {
   border-color: #2b4997;
-  background-image: url("/img/fon.png");
+  background-image: url("/westwebdev.github.io/wsg-mail/img/fon.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +142,7 @@ body {
       width: 100%; }
 
 .mail-footer {
-  background-image: url("/img/footer.png");
+  background-image: url("/westwebdev.github.io/wsg-mail/img/footer.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -178,4 +161,4 @@ body {
     font-weight: bold;
     margin-bottom: 5px; }
 
-/*# sourceMappingURL=style.css.map */
+
