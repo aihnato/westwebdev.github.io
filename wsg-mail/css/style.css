@@ -96,7 +96,7 @@ body {
   font-size: 22px;
   text-align: center; }
   .text-container .block-left {
-    max-width: 585px;
+    max-width: 440px;
     display: inline-block;
     margin: auto;
     padding-left: 5px; }
@@ -114,16 +114,19 @@ body {
     .text-container .block-li li {
       margin: 3px 0; }
   .text-container .block-right {
-    max-width: 290px;
+    max-width: 440px;
     display: inline-block;
     margin: auto;
     text-align: center;
     vertical-align: top; }
+    .text-container .block-right .img {
+      text-align: center; }
     .text-container .block-right div {
       text-align: left; }
     .text-container .block-right img {
       text-align: right;
-      width: 100%; }
+      width: 100%;
+      max-width: 290px; }
     .text-container .block-right .block-h-right {
       font-weight: bold; }
       .text-container .block-right .block-h-right span {
