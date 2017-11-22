@@ -1,31 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@font-face {
-  font-family: 'Bold';
-  src: url("/fonts/AG Letterica Bold.ttf"); }
-
-@font-face {
-  font-family: 'Roman';
-  src: url("/fonts/AG Letterica Roman.ttf"); }
-
-@font-face {
-  font-family: 'Helvetica-l';
-  src: url("/fonts/Helvetica/HLL.ttf"); }
-
-@font-face {
-  font-family: 'Helvetica-r';
-  src: url("/fonts/Helvetica/HELR45W.ttf"); }
-
 body {
   margin: 0;
-  padding: 0;
-  font-family: Sans-serif; }
+  padding: 0; }
 
 .container {
-  margin: auto; }
+  margin: auto;
+  font-family: Sans-serif; }
 
 .mail-header {
   border-color: #2b4997;
-  background-image: url("/img/fon.png");
+  background-image: url("https://westwebdev.github.io/wsg-mail//img/fon.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,6 +83,10 @@ body {
     color: #fff;
     font-size: 18px;
     vertical-align: middle; }
+    .contact .web a {
+      text-decoration: none;
+      color: #fff;
+      display: block; }
     .contact .web .site {
       font-weight: bold; }
 
@@ -111,7 +98,8 @@ body {
   .text-container .block-left {
     max-width: 585px;
     display: inline-block;
-    margin: auto; }
+    margin: auto;
+    padding-left: 5px; }
     .text-container .block-left div {
       text-align: left; }
     .text-container .block-left .block-h {
@@ -121,7 +109,7 @@ body {
   .text-container .block-li {
     margin: 0;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     padding-left: 25px; }
     .text-container .block-li li {
       margin: 3px 0; }
@@ -129,7 +117,8 @@ body {
     max-width: 290px;
     display: inline-block;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    vertical-align: top; }
     .text-container .block-right div {
       text-align: left; }
     .text-container .block-right img {
@@ -144,8 +133,6 @@ body {
       .text-container .block-right .people img {
         margin-left: -120px;
         width: 80%; }
-    .text-container .block-right .text-block-right {
-      margin-top: -110px; }
 
 .image {
   max-width: 900px;
@@ -159,7 +146,8 @@ body {
       width: 100%; }
 
 .mail-footer {
-  background-image: url("/img/footer.png");
+  background-color: #2b4997;
+  background-image: url("https://westwebdev.github.io/wsg-mail//img/footer.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -167,7 +155,7 @@ body {
   .mail-footer .footer-main-text {
     max-width: 900px;
     margin: auto;
-    font-size: 35px;
+    font-size: 33px;
     color: #fff;
     text-align: center;
     margin-top: 50px; }
