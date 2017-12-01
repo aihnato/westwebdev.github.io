@@ -1,0 +1,122 @@
+@media all and (max-width: 1040px) {
+  header .header-content .connection .phone {
+    font-size: 25px;
+    min-width: 165px; }
+  header .header-content .connection .call-back {
+    font-size: 14px;
+    min-width: 110px; } }
+
+@media all and (max-width: 974px) {
+  .tours .snippet .snippet-hotel .snippet-hotel-h {
+    font-size: 33px; }
+  .tours .snippet .snippet-hotel .snippet-hotel-price {
+    font-size: 33px; }
+  .tours .snippet .snippet-lvl .snippet-lvl-review, .tours .snippet .snippet-lvl .snippet-lvl-details {
+    font-size: 14px; }
+  .tours .snippet .snippet-lvl .snippet-rating {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; }
+  .tours .factorid .factorid-number {
+    font-size: 90px; }
+  .tours .factorid .factorid-caption {
+    font-size: 26px;
+    margin-right: 0px; } }
+
+@media all and (max-width: 924px) {
+  header .header-content .connection {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 30%; }
+    header .header-content .connection .phone-call {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      header .header-content .connection .phone-call .phone {
+        margin: 0; }
+    header .header-content .connection .social {
+      margin-top: 15px; }
+  .tours .factorid {
+    margin-right: 0; }
+  .extreme .extreme-img-caption .extreme-h {
+    font-size: 28px; } }
+
+@media all and (max-width: 856px) {
+  .tours .factorid:before {
+    top: 15%;
+    left: -175%; }
+  .tours .factorid {
+    margin-top: 0; }
+    .tours .factorid .factorid-number {
+      font-size: 50px; }
+    .tours .factorid .factorid-caption {
+      font-size: 22px;
+      max-width: 120px; }
+  .extreme section {
+    margin: 10px auto 10px; } }
+
+@media all and (max-width: 768px) {
+  .tours .main-img {
+    height: 425px; }
+  .main-text .text {
+    padding-right: 0; }
+    .main-text .text .text-table div {
+      padding: 5px 10px;
+      font-size: 12px; }
+  .main-text aside {
+    display: none; }
+  .tours {
+    padding: 0; }
+    .tours .snippet {
+      padding: 0 20px;
+      display: block;
+      margin: auto;
+      text-align: center; }
+      .tours .snippet .snippet-hotel .snippet-hotel-h,
+      .tours .snippet .snippet-hotel .snippet-hotel-star,
+      .tours .snippet .snippet-hotel .snippet-hotel-price {
+        margin-bottom: 10px; }
+      .tours .snippet .snippet-lvl .snippet-lvl-review, .tours .snippet .snippet-lvl .snippet-rating, .tours .snippet .snippet-lvl .details-block {
+        margin-bottom: 10px; }
+    .tours .factorid {
+      display: none; } }
+
+@media all and (max-width: 674px) {
+  .main-text .main-text-h {
+    font-size: 45px; }
+  .main-text .text .text-table {
+    display: none; } }
+
+@media all and (max-width: 520px) {
+  header .header-content {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+    header .header-content .connection {
+      width: 100%;
+      margin-top: 15px; }
+      header .header-content .connection .social {
+        width: 100%; }
+  .extreme section {
+    width: 90%;
+    min-width: 300px; }
+  .extreme .extreme-img-caption .extreme-h {
+    font-size: 20px; }
+  .extreme .extreme-img-caption .extreme-price {
+    font-size: 42px; }
+  .main-text .text p:nth-child(6) {
+    margin-left: 10px; } }
+
+@media all and (max-width: 425px) {
+  .tours .main-img .plushka {
+    left: 50%;
+    transform: translate(-50%, 0); }
+  .main-text .main-text-h {
+    font-size: 36px;
+    margin-bottom: 0; }
+  .main-text .text {
+    font-size: 14px; } }
+
+/*# sourceMappingURL=media.css.map */
