@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'XLight';
+  src: url("/fonts/SourceSansPro-ExtraLight.ttf"); }
+
+@font-face {
+  font-family: 'Regular';
+  src: url("/fonts/SourceSansPro-Regular.ttf"); }
+
+@media all and (max-width: 1440px) {
+  .carousel--show-several .carousel-cell {
+    padding: 60px; }
+  .carousel .carousel-cell-h {
+    margin-bottom: 40px; }
+  .carousel-cell-text-block .carousel-cell-logo {
+    margin-bottom: 35px; } }
+
+@media all and (max-width: 1024px) {
+  .carousel--show-several .carousel-cell {
+    padding: 50px; }
+  .carousel-cell-container {
+    width: 90%; }
+  .carousel .carousel-cell-h {
+    margin-bottom: 30px; }
+  .carousel-cell-text-block .carousel-cell-logo {
+    margin-bottom: 30px; }
+  .carousel-cell-text-block .text-block {
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 767px) {
+  .carousel-cell-text-block {
+    width: 100%; }
+    .carousel-cell-text-block .text-block:nth-child(2) {
+      float: right; }
+    .carousel-cell-text-block .text-block {
+      display: inline-block;
+      width: 48%;
+      vertical-align: top; }
+      .carousel-cell-text-block .text-block .text-block-text {
+        padding-right: 0; }
+  .device-block {
+    left: 50%;
+    bottom: 30%;
+    height: 200px;
+    width: 60%; }
+    .device-block .device-block-desktop {
+      max-width: 660px;
+      width: 105%;
+      right: 0; }
+    .device-block .device-block-tablet {
+      right: 75%;
+      max-width: 241px;
+      width: 38%; }
+    .device-block .device-block-mobile {
+      right: 103%;
+      max-width: 115px;
+      width: 18%; } }
+
+@media all and (max-width: 554px) {
+  .carousel .carousel-cell-h {
+    margin-bottom: 20px;
+    font-size: 28px; }
+  .carousel--show-several .carousel-cell {
+    padding: 40px;
+    padding-left: 45px;
+    padding-right: 45px; }
+  .carousel-cell-text-block {
+    width: 100%; }
+    .carousel-cell-text-block .text-block:nth-child(2) {
+      float: none;
+      margin-bottom: 20px; }
+    .carousel-cell-text-block .text-block {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top; }
+      .carousel-cell-text-block .text-block .text-block-text {
+        padding-right: 0; }
+    .carousel-cell-text-block .carousel-cms {
+      margin-bottom: 10px; }
+    .carousel-cell-text-block .text-block-cms {
+      margin-bottom: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px; }
+    .carousel-cell-text-block .carousel-cell-logo {
+      margin-bottom: 0px;
+      display: inline-block;
+      vertical-align: middle; }
+  .device-block {
+    left: -3%;
+    width: 90%; }
+    .device-block .device-img {
+      bottom: -11%; }
+    .device-block .device-block-desktop {
+      max-width: 660px;
+      min-width: 251px;
+      width: 125%;
+      right: -38%; }
+    .device-block .device-block-tablet {
+      right: 50%;
+      max-width: 241px;
+      min-width: 102px;
+      width: 51%; }
+    .device-block .device-block-mobile {
+      right: 84%;
+      max-width: 115px;
+      min-width: 47px;
+      width: 24%; } }
+
+@media all and (max-width: 487px) {
+  .device-block .device-block-desktop {
+    right: -38%; }
+  .device-block .device-block-tablet {
+    right: 50%; }
+  .device-block .device-block-mobile {
+    right: 84%; } }
+
+@media all and (max-width: 425px) {
+  .device-block .device-img {
+    bottom: -25%; }
+  .device-block .device-block-desktop {
+    right: -35%; } }
+
+@media all and (max-width: 360px) {
+  .device-block {
+    width: 100%; } }
+
+/*# sourceMappingURL=media.css.map */
