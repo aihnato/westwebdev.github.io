@@ -12,85 +12,60 @@ body, h2, p {
   width: 100%;
   height: 100px; }
 
-.carousel-cell:before,
-.carousel-cell__number {
-  display: none !important; }
-
-.carousel .carousel-cell {
+.swiper-wrapper .swiper-slide {
   background: #ffecb3;
-  position: relative;
-  transition: 0.7s ease;
-  -webkit-transition: 0.7s ease;
-  -moz-transition: 0.7s ease;
-  -ms-transition: 0.7s ease;
-  -o-transition: 0.7s ease; }
+  position: relative; }
 
-.carousel .carousel-cell-h {
+.swiper-wrapper .swiper-slide-h {
   font-weight: 200;
   margin-bottom: 55px;
   font-size: 36px; }
 
-.carousel .flickity-viewport:after {
-  content: '';
-  display: table;
-  clear: both; }
-
-.carousel--show-several .carousel-cell {
-  width: 100% !important;
-  height: 100%;
+.swiper-wrapper .swiper-slide {
   padding: 80px;
   padding-left: 4%;
   padding-right: 4%; }
 
-.carousel-cell-container {
+.swiper-slide-container {
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-size: 0;
   letter-spacing: -1px; }
-  .carousel-cell-container span {
+  .swiper-slide-container span {
     display: block; }
 
-.carousel-cell-text-block {
-  vertical-align: bottom;
+.swiper-slide-text-block {
+  vertical-align: top;
   letter-spacing: normal;
   position: relative;
-  width: 49%;
+  width: 30%;
   font-size: 18px;
   display: inline-block; }
-  .carousel-cell-text-block .text-block:nth-child(2) {
+  .swiper-slide-text-block .text-block:nth-child(2) {
     margin-bottom: 20px; }
-  .carousel-cell-text-block .text-block {
+  .swiper-slide-text-block .text-block {
     max-width: 380px;
-    margin-bottom: 30px;
-    transition: 0.7s ease;
-    -webkit-transition: 0.7s ease;
-    -moz-transition: 0.7s ease;
-    -ms-transition: 0.7s ease;
-    -o-transition: 0.7s ease; }
-    .carousel-cell-text-block .text-block .text-block-text {
+    margin-bottom: 30px; }
+    .swiper-slide-text-block .text-block .text-block-text {
       line-height: 22px;
       padding-right: 10px; }
-  .carousel-cell-text-block .text-block-cms {
+  .swiper-slide-text-block .text-block-cms {
     margin-bottom: 20px; }
-  .carousel-cell-text-block .text-block-h {
+  .swiper-slide-text-block .text-block-h {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400; }
-  .carousel-cell-text-block .carousel-cell-logo {
+  .swiper-slide-text-block .swiper-slide-logo {
     margin-bottom: 50px; }
 
 .device-block {
-  vertical-align: bottom;
+  vertical-align: top;
   width: 50%;
   max-width: 705px;
   height: 100%;
+  float: right;
   position: relative;
-  display: inline-block;
-  transition: 0.2s ease;
-  -webkit-transition: 0.2s ease;
-  -moz-transition: 0.2s ease;
-  -ms-transition: 0.2s ease;
-  -o-transition: 0.2s ease; }
+  display: inline-block; }
   .device-block .device-img {
     position: absolute;
     bottom: 0px;
