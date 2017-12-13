@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'XLight';
-  src: url("/fonts/SourceSansPro-ExtraLight.ttf"); }
-
-@font-face {
-  font-family: 'Regular';
-  src: url("/fonts/SourceSansPro-Regular.ttf"); }
-
 @media all and (max-width: 1440px) {
   .carousel--show-several .carousel-cell {
     padding: 60px; }

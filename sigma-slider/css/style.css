@@ -1,16 +1,9 @@
-@font-face {
-  font-family: 'XLight';
-  src: url("/fonts/SourceSansPro-ExtraLight.ttf"); }
-
-@font-face {
-  font-family: 'Regular';
-  src: url("/fonts/SourceSansPro-Regular.ttf"); }
-
 body, html {
   height: 100%; }
 
 body {
-  font-family: 'XLight', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200; }
 
 body, h2, p {
   margin: 0; }
@@ -81,7 +74,8 @@ body, h2, p {
   .carousel-cell-text-block .text-block-cms {
     margin-bottom: 20px; }
   .carousel-cell-text-block .text-block-h {
-    font-family: 'Regular'; }
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400; }
   .carousel-cell-text-block .carousel-cell-logo {
     margin-bottom: 50px; }
 
