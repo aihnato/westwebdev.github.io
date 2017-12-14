@@ -24,8 +24,8 @@ body, h2, p {
 
 .swiper-wrapper .swiper-slide {
   padding: 80px;
-  padding-left: 15%;
-  padding-right: 15%; }
+  padding-left: 20%;
+  padding-right: 20%; }
 
 .swiper-slide-container {
   position: relative;
@@ -87,19 +87,31 @@ body, h2, p {
       vertical-align: top; }
   .device-block .device-block-desktop {
     position: relative;
-    max-width: 660px;
+    max-width: 532px;
     width: 105%;
     right: 0; }
   .device-block .device-block-tablet {
     right: 75%;
-    left: -4%;
-    max-width: 241px;
+    left: -5%;
+    max-width: 204px;
     width: 38%; }
   .device-block .device-block-mobile {
     right: 103%;
-    left: -9%;
-    max-width: 115px;
+    left: -10%;
+    max-width: 96px;
     width: 18%; }
+
+.swiper-slide-3 .device-block .device-block-desktop {
+  max-width: 615px; }
+
+.swiper-slide-3 .device-block .device-block-tablet {
+  max-width: 215px; }
+
+.swiper-slide-4 .device-block .device-block-desktop {
+  max-width: 575px; }
+
+.swiper-slide-5 .device-block .device-block-desktop {
+  max-width: 510px; }
 
 .swiper-wrapper .swiper-slide-1 {
   background: #ffecb3; }
