@@ -5,83 +5,42 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , initial-scale=1.0">
 	<title>Progect</title>
 
-	<link rel="stylesheet" href="css/flickity/flickity-docs.css">
-	<link rel="stylesheet" href="css/swiper/swiper.css">
+	<!-- <link rel="stylesheet" href="css/flickity/flickity-docs.css"> -->
+	<!-- <link rel="stylesheet" href="css/swiper/swiper.css"> -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/fraction/fraction-style.css" type="text/css" charset="utf-8" />
+
+	<link rel="stylesheet" href="css/fraction/fractionslider.css">
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 
 	<link rel="stylesheet" href="css/media.css">
 
 
-	<!-- 
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<!--  -->
 
-		<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	-->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400&amp;subset=cyrillic" rel="stylesheet">
 
-	<!-- <script src="js/main.js"></script> -->
 
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
 
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-	<script type="text/javascript" src="js/main.js"></script>
 
-	<!-- <style>
-		html, body {
-			position: relative;
-			height: 100%;
-		}
-		body {
-			background: #eee;
-			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-			font-size: 14px;
-			color:#000;
-			margin: 0;
-			padding: 0;
-		}
-		.swiper-container {
-			width: 100%;
-			height: 100%;
-
-		}
-		.swiper-slide {
-			text-align: center;
-			font-size: 18px;
-			background: #fff;
-
-			/* Center slide text vertically */
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: -webkit-flex;
-			display: flex;
-			-webkit-box-pack: center;
-			-ms-flex-pack: center;
-			-webkit-justify-content: center;
-			justify-content: center;
-			-webkit-box-align: center;
-			-ms-flex-align: center;
-			-webkit-align-items: center;
-			align-items: center;
-		}
-	</style>
--->
 </head>
 <body>
-	
+
 	<!-- //= templates/_header.html -->
 
+	<div class="slider-wrapper">
 
-	<div class="swiper-container">
-		<div class="swiper-wrapper carousel carousel--show-several">
+		<div class="swiper-container responisve-container">
+			<div class="swiper-wrapper slider">
 
-			<div class="swiper-slide ">
-				<div class="swiper-slide-container">
-					<h2 class="swiper-slide-h">Магазин по продаже обоев</h2>
-					<div class="swiper-slide-text-block">
+				<div class="swiper-slide swiper-slide-1 slide row">
+					<h2 class="swiper-slide-h col-md-12"  data-in="top" data-delay="200" data-out="bottom">Магазин по продаже обоев</h2>
+					<div class="swiper-slide-text-block col-md-6 col-sm-6 col-xs-12" data-in="right" data-delay="700" data-out="right">
 						<div class="text-block">
 							<span class="text-block-h">Была задача: </span>
 							<span class="text-block-text">Разработать удобный и функциональный магазин для продажи обоев.
@@ -98,7 +57,7 @@
 							<a href="http://bliss2.synergy-it.co/" target="blank">http://bliss2.synergy-it.co/</a>
 						</div>
 					</div>
-					<div class="device-block">
+					<div class="device-block col-md-6 col-sm-6 col-xs-12" data-in="left" data-delay="1200" data-out="right">
 						<div class="device-block-desktop device-img">
 							<img src="img/desktop-oboi.png" alt="">
 						</div>
@@ -110,161 +69,152 @@
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="swiper-slide">
-				<div class="swiper-slide-container">
-					<h2 class="swiper-slide-h">Магазин по продаже обоев</h2>
-					<div class="swiper-slide-text-block">
+				<div class="swiper-slide swiper-slide-2 slide row">
+					<h2 class="swiper-slide-h col-md-12"  data-in="top" data-delay="200" data-out="bottom">Сайт детского центра</h2>
+					<div class="swiper-slide-text-block col-md-6 col-sm-6 col-xs-12" data-in="bottom" data-delay="700" data-out="right">
 						<div class="text-block">
-							<span class="text-block-h">Была задача: </span>
-							<span class="text-block-text">Разработать удобный и функциональный магазин для продажи обоев.
+							<span class="text-block-h">Была задача:  </span>
+							<span class="text-block-text">Разработать сайт для детского центра лечения 
+								детей, больных аутизмом.
+
 							</span>
 						</div>
 						<div class="text-block">
 							<span class="text-block-h">Что сделано: </span>
-							<span class="text-block-text">Логотип, прототипы, адаптивный дизайн, баннеры, хиты продаж, бренды, фильтры по характеристикам, сравнение, wishlist, покупка в 1-н клик, сопутствующие товары, быстрый просмотр, блог, доработана админка.</span>
+							<span class="text-block-text">Логотип, интеграция html/css шаблона на WebAsyst, фотогалерея, блог (категории, последние статьи, виджет галереи в блоге), виджеты соцсетей, обучение заказчицы по админке.</span>
 						</div>
-						<div class="text-block-cms">CMS: Shop-Script7</div>
+						<div class="text-block-cms">CMS: Web-Asyst</div>
 						<div class="swiper-slide-logo"><img src="img/shop-script-copy 2.png" alt=""></div>
 						<div class="text-block-link">
 							<span class="text-block-link-h">Перейти на сайт: </span>
-							<a href="http://bliss2.synergy-it.co/" target="blank">http://bliss2.synergy-it.co/</a>
+							<a href="http://openmyworld.kh.ua/" target="blank">http://openmyworld.kh.ua/</a>
 						</div>
 					</div>
-					<div class="device-block">
+					<div class="device-block col-md-6 col-sm-6 col-xs-12" data-in="left" data-delay="1200" data-out="right">
 						<div class="device-block-desktop device-img">
-							<img src="img/desktop-oboi.png" alt="">
+							<img src="img/desktop-kids.png" alt="">
 						</div>
 						<div class="device-block-tablet device-img">
-							<img src="img/tablet-oboi.png" alt="">
+							<img src="img/tablet-kids.png" alt="">
 						</div>
 						<div class="device-block-mobile device-img">
-							<img src="img/mobile-oboi.png" alt="">
+							<img src="img/mobile-kids.png" alt="">
 						</div>
 					</div>
 				</div>
+
+				<div class="swiper-slide swiper-slide-3 slide row">
+					<h2 class="swiper-slide-h col-md-12"  data-in="top" data-delay="200" data-out="bottom">Портал по криптовалюте</h2>
+					<div class="swiper-slide-text-block col-md-6 col-sm-6 col-xs-12" data-in="bottom" data-delay="700" data-out="right">
+						<div class="text-block">
+							<span class="text-block-h">Была задача: </span>
+							<span class="text-block-text">Разработать информационный портал с доской 
+								объявлений и личным кабинетом по тематике майнинга криптовалюты.
+							</span>
+						</div>
+						<div class="text-block">
+							<span class="text-block-h">Что сделано: </span>
+							<span class="text-block-text">Логотип, прототипы, адаптивный дизайн, доска 
+								объявлений, фильтры по объявлениям, рейтинг объявлений, личный кабинет, авторизация через соцсети, личные сообщения между участниками, блог, комментарии, последние объявления на главной, новости, самые читаемые, инструкции.</span>
+							</div>
+							<div class="text-block-cms">CMS: WordPress</div>
+							<div class="swiper-slide-logo"><img src="img/logo-wordpress.png" alt=""></div>
+							<div class="text-block-link">
+								<span class="text-block-link-h">Перейти на сайт: </span>
+								<a href=" http://crypto.synergy-it.co/" target="blank"> http://crypto.synergy-it.co</a>
+							</div>
+						</div>
+						<div class="device-block col-md-6 col-sm-6 col-xs-12" data-in="left" data-delay="1200" data-out="right">
+							<div class="device-block-desktop device-img">
+								<img src="img/cryptomoly.png" alt="">
+							</div>
+							<div class="device-block-tablet device-img">
+								<img src="img/tablet-crypto.png" alt="">
+							</div>
+							<div class="device-block-mobile device-img">
+								<img src="img/mobile-crypto.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide swiper-slide-4 slide row">
+						<h2 class="swiper-slide-h col-md-12"  data-in="top" data-delay="200" data-out="bottom">Магазин женской одежды</h2>
+						<div class="swiper-slide-text-block col-md-6 col-sm-6 col-xs-12" data-in="bottom" data-delay="700" data-out="right">
+							<div class="text-block">
+								<span class="text-block-h">Была задача: </span>
+								<span class="text-block-text">Перенести со старого движка на новый и сделать редизайн.
+								</span>
+							</div>
+							<div class="text-block">
+								<span class="text-block-h">Что сделано: </span>
+								<span class="text-block-text">Логотип, адаптивный дизайн, баннеры, рекомендуемые товары, промокоды, скидки на группы покупателей, запароленная категория для оптовиков, подписка на рассылку, фильтры, выезжающая корзина, автопересчет, покупка в 1-н клик, выбор цвета и размера, наполнение, инструкции.</span>
+							</div>
+							<div class="text-block-cms">CMS: Shop-Script7</div>
+							<div class="swiper-slide-logo"><img src="img/shop-script-copy 2.png" alt=""></div>
+							<div class="text-block-link">
+								<span class="text-block-link-h">Перейти на сайт: </span>
+								<a href=" http://mirage-style.com.ua" target="blank"> mirage-style.com.ua</a>
+							</div>
+						</div>
+						<div class="device-block col-md-6 col-sm-6 col-xs-12" data-in="left" data-delay="1200" data-out="right">
+							<div class="device-block-desktop device-img">
+								<img src="img/desktop-clothes.png" alt="">
+							</div>
+							<div class="device-block-tablet device-img">
+								<img src="img/tablet-clothes.png" alt="">
+							</div>
+							<div class="device-block-mobile device-img">
+								<img src="img/mobile-clothes.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide swiper-slide-5 slide row">
+						<h2 class="swiper-slide-h col-md-12"  data-in="top" data-delay="200" data-out="bottom">Магазин женской одежды</h2>
+						<div class="swiper-slide-text-block col-md-6 col-sm-6 col-xs-12" data-in="bottom" data-delay="700" data-out="right">
+							<div class="text-block">
+								<span class="text-block-h">Была задача: </span>
+								<span class="text-block-text">Сделать магазин для американского рынка, по продаже детской мебели.
+								</span>
+							</div>
+							<div class="text-block">
+								<span class="text-block-h">Что сделано: </span>
+								<span class="text-block-text">Логотип, адаптивный дизайн, баннеры, хиты продаж на главной, фильтры, кастомные доп. опции в карточке товара, подключение PAYPAL.</span>
+							</div>
+							<div class="text-block-cms">CMS: OpenCart 3</div>
+							<div class="swiper-slide-logo"><img src="img/opencat.png" alt=""></div>
+							<div class="text-block-link">
+								<span class="text-block-link-h">Перейти на сайт: </span>
+								<a href=" http://bliss1.synergy-it.co/2/index.php" target="blank"> http://bliss1.synergy-it.co/2/index.php</a>
+							</div>
+						</div>
+						<div class="device-block col-md-6 col-sm-6 col-xs-12" data-in="left" data-delay="1200" data-out="right">
+							<div class="device-block-desktop device-img">
+								<img src="img/Layer-2.png" alt="">
+							</div>
+							<div class="device-block-tablet device-img">
+								<img src="img/tablet-furniture.png" alt="">
+							</div>
+							<div class="device-block-mobile device-img">
+								<img src="img/mobile-furniture.png" alt="">
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
-			<div class="swiper-slide">Slide 3</div>
-		
-		</div>
-		
-		<div class="swiper-pagination"></div>
-
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-	</div>
-
-
-	<!-- <div class="carousel carousel--show-several slider" data-flickity='{ "initialIndex": 0, &quot;contain&quot;: true, &quot;wrapAround&quot;: true}'> 
-		<div class="carousel-cell carousel-cell-1 cover">
-			<div class="carousel-cell-container">
-				<h2 class="carousel-cell-h">Магазин по продаже обоев</h2>
-				<div class="carousel-cell-text-block">
-					<div class="text-block">
-						<span class="text-block-h">Была задача: </span>
-						<span class="text-block-text">Разработать удобный и функциональный магазин для продажи обоев.
-						</span>
-					</div>
-					<div class="text-block">
-						<span class="text-block-h">Что сделано: </span>
-						<span class="text-block-text">Логотип, прототипы, адаптивный дизайн, баннеры, хиты продаж, бренды, фильтры по характеристикам, сравнение, wishlist, покупка в 1-н клик, сопутствующие товары, быстрый просмотр, блог, доработана админка.</span>
-					</div>
-					<div class="carousel-cms">
-						<div class="text-block-cms">CMS: Shop-Script7</div>
-						<div class="carousel-cell-logo"><img src="img/shop-script-copy 2.png" alt=""></div>
-					</div>
-					<div class="text-block-link">
-						<span class="text-block-link-h">Перейти на сайт: </span>
-						<a href="http://bliss2.synergy-it.co/" target="blank">http://bliss2.synergy-it.co/</a>
-					</div>
-				</div>
-				<div class="device-block">
-					<div class="device-block-desktop device-img">
-						<img src="img/desktop-oboi.png" alt="">
-					</div>
-					<div class="device-block-tablet device-img">
-						<img src="img/tablet-oboi.png" alt="">
-					</div>
-					<div class="device-block-mobile device-img">
-						<img src="img/mobile-oboi.png" alt="">
-					</div>
-				</div>
-			</div>
 		</div>
 
-		<div class="carousel-cell carousel-cell-2 cover">
-						<div class="carousel-cell-container">
-				<h2 class="carousel-cell-h">Магазин по продаже обоев</h2>
-				<div class="carousel-cell-text-block">
-					<div class="text-block">
-						<span class="text-block-h">Была задача: </span>
-						<span class="text-block-text">Разработать удобный и функциональный магазин для продажи обоев.
-						</span>
-					</div>
-					<div class="text-block">
-						<span class="text-block-h">Что сделано: </span>
-						<span class="text-block-text">Логотип, прототипы, адаптивный дизайн, баннеры, хиты продаж, бренды, фильтры по характеристикам, сравнение, wishlist, покупка в 1-н клик, сопутствующие товары, быстрый просмотр, блог, доработана админка.</span>
-					</div>
-					<div class="carousel-cms">
-						<div class="text-block-cms">CMS: Shop-Script7</div>
-						<div class="carousel-cell-logo"><img src="img/shop-script-copy 2.png" alt=""></div>
-					</div>
-					<div class="text-block-link">
-						<span class="text-block-link-h">Перейти на сайт: </span>
-						<a href="http://bliss2.synergy-it.co/" target="blank">http://bliss2.synergy-it.co/</a>
-					</div>
-				</div>
-				<div class="device-block">
-					<div class="device-block-desktop device-img">
-						<img src="img/desktop-oboi.png" alt="">
-					</div>
-					<div class="device-block-tablet device-img">
-						<img src="img/tablet-oboi.png" alt="">
-					</div>
-					<div class="device-block-mobile device-img">
-						<img src="img/mobile-oboi.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="carousel-cell carousel-cell-3 cover">
-			<div class="en">More..</div>
-			<div class="ru">Еще..</div>
-			<div class="ua">Ще..</div>
-		</div>
-	</div> -->
 
 
-	<!-- <div class="div"></div> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-	<!-- <script src="js/flickity/flickity-docs.js"></script> -->
+		<script src="js/fraction/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
 
-	<script src="js/swiper/swiper.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 
+		<script type="text/javascript" src="js/main.js"></script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			spaceBetween: 0,
-			loop: true,
-			// centeredSlides: true,
-      // autoplay: {
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      // },
-      pagination: {
-      	el: '.swiper-pagination',
-      	clickable: true,
-      },
-      navigation: {
-      	nextEl: '.swiper-button-next',
-      	prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-</body>
-</html>
+	</body>
+	</html>

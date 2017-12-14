@@ -2,8 +2,9 @@ body, html {
   height: 100%; }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200; }
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 200;
+  line-height: 1; }
 
 body, h2, p {
   margin: 0; }
@@ -12,19 +13,19 @@ body, h2, p {
   width: 100%;
   height: 100px; }
 
-.swiper-wrapper .swiper-slide {
-  background: #ffecb3;
-  position: relative; }
-
-.swiper-wrapper .swiper-slide-h {
-  font-weight: 200;
-  margin-bottom: 55px;
-  font-size: 36px; }
+.swiper-wrapper {
+  height: 705px; }
+  .swiper-wrapper .swiper-slide-h {
+    font-weight: 200;
+    margin-bottom: 55px;
+    font-size: 36px;
+    letter-spacing: normal;
+    position: relative; }
 
 .swiper-wrapper .swiper-slide {
   padding: 80px;
-  padding-left: 4%;
-  padding-right: 4%; }
+  padding-left: 15%;
+  padding-right: 15%; }
 
 .swiper-slide-container {
   position: relative;
@@ -33,13 +34,12 @@ body, h2, p {
   font-size: 0;
   letter-spacing: -1px; }
   .swiper-slide-container span {
-    display: block; }
+    display: block !important; }
 
 .swiper-slide-text-block {
   vertical-align: top;
   letter-spacing: normal;
-  position: relative;
-  width: 30%;
+  position: relative !important;
   font-size: 18px;
   display: inline-block; }
   .swiper-slide-text-block .text-block:nth-child(2) {
@@ -48,23 +48,28 @@ body, h2, p {
     max-width: 380px;
     margin-bottom: 30px; }
     .swiper-slide-text-block .text-block .text-block-text {
-      line-height: 22px;
-      padding-right: 10px; }
+      line-height: 1 !important;
+      padding-right: 5%; }
   .swiper-slide-text-block .text-block-cms {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: block; }
   .swiper-slide-text-block .text-block-h {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 400; }
   .swiper-slide-text-block .swiper-slide-logo {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    display: block; }
+  .swiper-slide-text-block .text-block-link {
+    display: block;
+    font-weight: 400; }
+    .swiper-slide-text-block .text-block-link a {
+      display: block;
+      color: #2cd094;
+      text-decoration: underline; }
 
 .device-block {
-  vertical-align: top;
-  width: 50%;
   max-width: 705px;
-  height: 100%;
-  float: right;
-  position: relative;
+  position: relative !important;
   display: inline-block; }
   .device-block .device-img {
     position: absolute;
@@ -81,21 +86,46 @@ body, h2, p {
       vertical-align: middle;
       vertical-align: top; }
   .device-block .device-block-desktop {
+    position: relative;
     max-width: 660px;
     width: 105%;
     right: 0; }
   .device-block .device-block-tablet {
     right: 75%;
+    left: -4%;
     max-width: 241px;
     width: 38%; }
   .device-block .device-block-mobile {
     right: 103%;
+    left: -9%;
     max-width: 115px;
     width: 18%; }
 
-.div {
-  width: 75%;
-  height: 100px;
-  background: #000; }
+.swiper-wrapper .swiper-slide-1 {
+  background: #ffecb3; }
+
+.swiper-wrapper .swiper-slide-2 {
+  background: #29b4ef;
+  color: #fff; }
+  .swiper-wrapper .swiper-slide-2 .text-block-link a {
+    color: #fff; }
+
+.swiper-wrapper .swiper-slide-3 {
+  background: #4caf50;
+  color: #fff; }
+  .swiper-wrapper .swiper-slide-3 .text-block-link a {
+    color: #fff; }
+
+.swiper-wrapper .swiper-slide-4 {
+  background: #e1f5fe;
+  color: #727272; }
+  .swiper-wrapper .swiper-slide-4 .text-block-link a {
+    color: #727272; }
+
+.swiper-wrapper .swiper-slide-5 {
+  background: #f4f5f6;
+  color: #727272; }
+  .swiper-wrapper .swiper-slide-5 .text-block-link a {
+    color: #727272; }
 
 /*# sourceMappingURL=style.css.map */

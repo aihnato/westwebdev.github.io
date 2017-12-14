@@ -1,14 +1,16 @@
 @media all and (max-width: 1440px) {
-  .swiper-wrapper .swiper-slide {
-    padding: 60px; }
   .swiper-wrapper .swiper-slide-h {
     margin-bottom: 40px; }
   .swiper-slide-text-block .swiper-slide-logo {
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .swiper-slide-text-block .text-block .text-block-text {
+    padding-right: 25%; } }
 
 @media all and (max-width: 1024px) {
-  .swiper-wrapper .swiper-slide {
-    padding: 50px; }
+  .swiper-wrapper {
+    height: 570px; }
+    .swiper-wrapper .swiper-slide {
+      padding: 50px; }
   .swiper-wrapper .swiper-slide-h {
     margin-bottom: 20px; }
   .swiper-slide-text-block .swiper-slide-logo {
@@ -19,8 +21,10 @@
     margin-bottom: 10px; } }
 
 @media all and (max-width: 770px) {
-  .swiper-wrapper .swiper-slide {
-    padding: 30px; }
+  .swiper-wrapper {
+    height: 705px; }
+    .swiper-wrapper .swiper-slide {
+      padding: 30px; }
   .swiper-slide-text-block {
     width: 100%; }
     .swiper-slide-text-block .text-block-link {
@@ -35,18 +39,22 @@
         padding-right: 0; }
   .device-block {
     left: 13%;
-    height: 200px;
     width: 100%; }
+    .device-block .device-img img {
+      width: 75%; }
     .device-block .device-block-desktop {
       max-width: 660px;
       width: 105%;
-      right: 0; }
+      right: 0;
+      left: 10%; }
     .device-block .device-block-tablet {
       right: 75%;
+      left: 10%;
       max-width: 241px;
       width: 38%; }
     .device-block .device-block-mobile {
       right: 103%;
+      left: 8%;
       max-width: 115px;
       width: 18%; } }
 
