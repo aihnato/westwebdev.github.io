@@ -59,11 +59,13 @@
       width: 18%; } }
 
 @media all and (max-width: 554px) {
-  .swiper-wrapper .swiper-slide {
-    padding-left: 45px;
-    padding-right: 45px; }
-    .swiper-wrapper .swiper-slide .swiper-slide-h {
-      font-size: 30px; }
+  .swiper-wrapper {
+    height: 765px; }
+    .swiper-wrapper .swiper-slide {
+      padding-left: 45px;
+      padding-right: 45px; }
+      .swiper-wrapper .swiper-slide .swiper-slide-h {
+        font-size: 30px; }
   .swiper-slide-text-block {
     width: 100%; }
     .swiper-slide-text-block .text-block:nth-child(2) {
