@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Skoda';
+  src: url("/fonts/SkodaPro.ttf"); }
+
+@font-face {
+  font-family: 'Skoda-Bold';
+  src: url("/fonts/SkodaPro-Bold.ttf"); }
+
+@media all and (max-width: 1529px) {
+  .skoda_header_dropdown:active,
+  .skoda_header_dropdown:visited,
+  .skoda_header_dropdown:focus,
+  .skoda_header_dropdown:hover {
+    text-decoration: none !important;
+    color: #000; }
+  .skoda_header_dropdown {
+    display: block; }
+    .skoda_header_dropdown .menu_arrow_down {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-left: 10px;
+      border-bottom: 1px solid #4ba82e;
+      border-left: 1px solid #4ba82e;
+      transform: rotate(-45deg) translateY(-5px); } }
+
+@media all and (max-width: 1070px) {
+  .skoda_header .skoda_header_location {
+    display: none; } }
+
+@media all and (max-width: 885px) {
+  .skoda_header .skoda_header_helm {
+    display: none; } }
+
+@media all and (max-width: 700px) {
+  .skoda_header .skoda_header_book {
+    display: none; } }
+
+@media all and (max-width: 816px) {
+  .bottom_menu_dropdown_button {
+    display: block; }
+  .bottom_menu .bottom_menu_dropdown {
+    box-shadow: none;
+    background: none;
+    border: none;
+    border-radius: 0;
+    float: none; }
+  .bottom_menu .bottom_menu_column:last-child {
+    display: none; }
+  .bottom_menu_column_new {
+    display: block; } }
+
+@media (max-width: 992px) {
+  .bottom_menu .bottom_menu_container {
+    width: auto; } }
+
+@media (max-width: 768px) {
+  .bottom_menu .bottom_menu_container {
+    width: auto; } }
+
+/*# sourceMappingURL=media.css.map */
