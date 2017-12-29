@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Skoda';
-  src: url("/fonts/SkodaPro.ttf"); }
+  src: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/fonts/SkodaPro.ttf"); }
 
 @font-face {
   font-family: 'Skoda-Bold';
-  src: url("/fonts/SkodaPro-Bold.ttf"); }
+  src: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/fonts/SkodaPro-Bold.ttf"); }
 
 body {
   margin: 0 auto;
