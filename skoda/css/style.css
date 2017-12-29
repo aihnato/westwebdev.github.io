@@ -58,7 +58,7 @@ body {
     top: 0;
     right: 0px; }
     .skoda_header .skoda_header_search .skoda_header_search_button {
-      background: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/img/search.svg") no-repeat 50% 50%;
+      background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U2VhcmNoX2ljb25fZ3JlZW48L3RpdGxl%0D%0APjxwYXRoIGQ9Ik0zNS40OTcgNjIuMjg5Yy0xNC42NS0uMDk2LTI2LjQ5NC0xMi4xMDEtMjYuNDAz%0D%0ALTI2Ljc2MkM5LjE4OSAyMC45NTYgMjEuMTA2IDkuMTA1IDM1LjY2IDkuMTA1aC4xNzVjNy4wOTcu%0D%0AMDQyIDEzLjc1NCAyLjg1MiAxOC43NDQgNy45MSA0Ljk4NCA1LjA1MSA3LjcwNyAxMS43NSA3LjY2%0D%0AIDE4Ljg1Mi0uMDQzIDcuMDctMi44MyAxMy43MTUtNy44NDYgMTguNjk4LTUuMDExIDQuOTgzLTEx%0D%0ALjY2MiA3LjcyNC0xOC43MjIgNy43MjRoLS4xNzV6TTg4Ljc3IDc1Ljg1bC0uNTQyLS41NDctMjEu%0D%0ANy0yMS43MTVhMzUuNTUyIDM1LjU1MiAwIDAgMCA0LjgxLTE3LjY2M0M3MS40NjUgMTYuMjA3IDU1%0D%0ALjU5OC4xMjcgMzUuODk1IDBoLS4yMzRDMTYuMDcgMCAuMTIzIDE1LjgzNS4wMDEgMzUuNDY4LS4x%0D%0AMjcgNTUuMTgxIDE1Ljc0IDcxLjI2NiAzNS40MzggNzEuMzkzaC4yMzRjNi41NSAwIDEyLjY4Ni0x%0D%0ALjc3NCAxNy45NjMtNC44NjVsMjEuNjc5IDIxLjdoLjAwNWwuNTQxLjU0YTQuMTkyIDQuMTkyIDAg%0D%0AMCAwIDUuOTM1IDBsNi45NzUtNi45NzlhNC4xOTkgNC4xOTkgMCAwIDAgMC01LjkzOXoiIGZpbGw9%0D%0AIiM0QkE4MkUiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==") no-repeat 50% 50%;
       background-size: 24px 24px;
       padding: 35px; }
   .skoda_header .skoda_header_tools {
@@ -66,7 +66,7 @@ body {
     top: 0;
     right: 70px;
     border-left: 1px solid #ddd;
-    background: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/img/tools.svg") no-repeat 15px 50%;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHZpZXdCb3g9IjAgMCA5MCA5MCIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VG9vbF9tZW51X2dyZWVuPC90aXRsZT48%0D%0AZyBmaWxsPSIjNEJBODJFIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yIDIxLjQ5Nmgx%0D%0ANy40OTZhMiAyIDAgMCAwIDItMlYyYTIgMiAwIDAgMC0yLTJIMmEyIDIgMCAwIDAtMiAydjE3LjQ5%0D%0ANmEyIDIgMCAwIDAgMiAyek0yIDU1LjYyNWgxNy40OTZhMiAyIDAgMCAwIDItMlYzNi4xMjlhMiAy%0D%0AIDAgMCAwLTItMkgyYTIgMiAwIDAgMC0yIDJ2MTcuNDk2YTIgMiAwIDAgMCAyIDJ6TTIgODkuNzU0%0D%0AaDE3LjQ5NmEyIDIgMCAwIDAgMi0yVjcwLjI1OGEyIDIgMCAwIDAtMi0ySDJhMiAyIDAgMCAwLTIg%0D%0AMnYxNy40OTZhMiAyIDAgMCAwIDIgMnpNMzYuMTMgMjEuNDk2aDE3LjQ5NWEyIDIgMCAwIDAgMi0y%0D%0AVjJhMiAyIDAgMCAwLTItMkgzNi4xMjlhMiAyIDAgMCAwLTIgMnYxNy40OTZhMiAyIDAgMCAwIDIg%0D%0AMnpNMzYuMTMgNTUuNjI1aDE3LjQ5NWEyIDIgMCAwIDAgMi0yVjM2LjEyOWEyIDIgMCAwIDAtMi0y%0D%0ASDM2LjEyOWEyIDIgMCAwIDAtMiAydjE3LjQ5NmEyIDIgMCAwIDAgMiAyek0zNi4xMyA4OS43NTRo%0D%0AMTcuNDk1YTIgMiAwIDAgMCAyLTJWNzAuMjU4YTIgMiAwIDAgMC0yLTJIMzYuMTI5YTIgMiAwIDAg%0D%0AMC0yIDJ2MTcuNDk2YTIgMiAwIDAgMCAyIDJ6TTcwLjI1OCAyMS40OTZoMTcuNDk2YTIgMiAwIDAg%0D%0AMCAyLTJWMmEyIDIgMCAwIDAtMi0ySDcwLjI1OGEyIDIgMCAwIDAtMiAydjE3LjQ5NmEyIDIgMCAw%0D%0AIDAgMiAyek03MC4yNTggNTUuNjI1aDE3LjQ5NmEyIDIgMCAwIDAgMi0yVjM2LjEyOWEyIDIgMCAw%0D%0AIDAtMi0ySDcwLjI1OGEyIDIgMCAwIDAtMiAydjE3LjQ5NmEyIDIgMCAwIDAgMiAyek03MC4yNTgg%0D%0AODkuNzU0aDE3LjQ5NmEyIDIgMCAwIDAgMi0yVjcwLjI1OGEyIDIgMCAwIDAtMi0ySDcwLjI1OGEy%0D%0AIDIgMCAwIDAtMiAydjE3LjQ5NmEyIDIgMCAwIDAgMiAyeiIvPjwvZz48L3N2Zz4=") no-repeat 15px 50%;
     background-size: 24px 24px; }
     .skoda_header .skoda_header_tools .skoda_header_tools_dropdown:active,
     .skoda_header .skoda_header_tools .skoda_header_tools_dropdown:visited,
@@ -116,14 +116,14 @@ body {
     display: block; }
     .skoda_jumbotron_section .skoda_jumbotron_link .skoda_jumbotron_link_pic_1 {
       position: relative;
-      background: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/img/skoda_banner.png") no-repeat 50% 0%;
+      background: url("https://raw.githubusercontent.com/westwebdev/westwebdev.github.io/master/skoda/img/skoda_banner.png") no-repeat 50% 0%;
       background-size: 1920px 500px;
       height: 500px; }
     .skoda_jumbotron_section .skoda_jumbotron_link .skoda_jumbotron_link_pic_2 {
       position: absolute;
       top: 0;
       left: 0;
-      background: url("https://github.com/westwebdev/westwebdev.github.io/blob/master/skoda/img/skoda_gradient.png") no-repeat 100% 0%;
+      background: url("https://raw.githubusercontent.com/westwebdev/westwebdev.github.io/master/skoda/img/skoda_gradient.png") no-repeat 100% 0%;
       height: 500px;
       width: 100%; }
   .skoda_jumbotron_section .skoda_jumbotron_button {
