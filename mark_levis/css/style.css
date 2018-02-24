@@ -119,5 +119,11 @@ body {
         height: 10px;
         border-radius: 5px;
         background-image: linear-gradient(to right, #5cd7fb 0%, #16ffeb 100%); }
+  .progress_panel .progress_panel_block:nth-child(2) .progress_panel_bar .progress_panel_bar_active {
+    width: 75%; }
+  .progress_panel .progress_panel_block:nth-child(3) .progress_panel_bar .progress_panel_bar_active {
+    width: 10%; }
+  .progress_panel .progress_panel_block:nth-child(4) .progress_panel_bar .progress_panel_bar_active {
+    width: 30%; }
 
 /*# sourceMappingURL=style.css.map */
