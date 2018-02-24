@@ -1,0 +1,123 @@
+body {
+  width: 375px;
+  margin: auto; }
+
+.head_business {
+  height: 120px;
+  background: #08203b url("../img/logo.png") no-repeat 50%;
+  position: relative;
+  color: #fff;
+  border: 1px solid #809dc9;
+  z-index: 1; }
+  .head_business .head_buisness_shape {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+  .head_business .head_buisness_menu {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(0, -50%); }
+  .head_business .head_business_text {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right; }
+    .head_business .head_business_text .head_article {
+      font-size: 20px; }
+    .head_business .head_business_text .percent_load {
+      font-size: 12px; }
+  .head_business .head_progress {
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-right: 1px solid #16ffeb;
+    background: rgba(253, 255, 255, 0.3) url("../img/progress_img.png") no-repeat 100% 100%; }
+    .head_business .head_progress .head_progress_line {
+      position: absolute;
+      z-index: 3;
+      bottom: 0;
+      width: 240px;
+      height: 6px;
+      background-image: linear-gradient(to right, #5cd7fb 0%, #52a0fd 0%, #16ffeb 100%); }
+
+.main_tabs {
+  background: #08203b;
+  font-size: 0;
+  letter-spacing: -1px;
+  text-align-last: justify;
+  padding: 12px 25px 20px 30px; }
+  .main_tabs .main_tabs_link:hover,
+  .main_tabs .main_tabs_link:link,
+  .main_tabs .main_tabs_link:active,
+  .main_tabs .main_tabs_link:focus {
+    text-decoration: none; }
+  .main_tabs .main_tabs_link {
+    text-align-last: center;
+    font-size: 11px;
+    letter-spacing: normal;
+    display: inline-block;
+    color: #ffffff; }
+    .main_tabs .main_tabs_link * {
+      display: block;
+      margin: auto; }
+    .main_tabs .main_tabs_link span {
+      margin-top: 10px; }
+
+.wallets {
+  display: table;
+  border-collapse: collapse;
+  font-size: 0;
+  letter-spacing: -1px;
+  color: #fff; }
+  .wallets .wallets_row {
+    display: table-row;
+    border-collapse: collapse; }
+  .wallets .wallets_block {
+    padding: 20px 35px;
+    border-collapse: collapse;
+    display: table-cell;
+    font-size: 14px;
+    letter-spacing: normal;
+    display: table-cell;
+    width: 50%;
+    width: 188px;
+    border: 1px solid #809dc9;
+    background: #3c587e; }
+    .wallets .wallets_block .wallets_block_number {
+      font-size: 20px; }
+
+.progress_panel {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 35px 40px;
+  background: #3c587e;
+  border: 1px solid #809dc9;
+  border-top: none; }
+  .progress_panel .progress_panel_block:last-child {
+    margin-bottom: 0; }
+  .progress_panel .progress_panel_block {
+    margin-bottom: 35px; }
+    .progress_panel .progress_panel_block .progress_panel_bar {
+      height: 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+      background: #2d4a73;
+      position: relative; }
+      .progress_panel .progress_panel_block .progress_panel_bar .progress_panel_bar_active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 10px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #5cd7fb 0%, #16ffeb 100%); }
+
+/*# sourceMappingURL=style.css.map */
